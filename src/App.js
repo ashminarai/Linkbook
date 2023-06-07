@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Index from './Components/Basics/Index';"./Components/Basics/Index";
+import Home from './Components/Basics/Home';
+import Login from './Components/Basics/Login';
+
 
 function App() {
   return(
     <>
-    <Index/>
+    <Home/>
+    <Login/>
+    
     </>
   )
  
