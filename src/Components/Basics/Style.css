@@ -1,19 +1,28 @@
-body {
-  background-color: #f0f2f5;
-}
-a {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* *[
   margin: 0;
   padding: 0;
-}
+] */
 a {
-  line-height: 1.2;
+
   text-decoration:none;
+}
+body {
+  background-color: #f0f2f5;
 }
 li{
     list-style: none;
 }
 .nfb {
   color: #1877f2;
+  font-size:50px;
+  margin-left:240px;
+  font-weight:800;
+  margin-top:260px;
+}
+.connect{
+  margin-left:240px;
+  font-weight:600;
 }
 .logintext-container {
   display: flex;
@@ -22,7 +31,7 @@ li{
   background-color: white;
   border-radius: 5px;
   border-radius: 10px;
-  margin-left: 400px;
+  margin-left: 200px;
   margin-top: 200px;
   height: 370px;
   box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
@@ -34,9 +43,11 @@ li{
   margin-left:20px;
   margin-top:20px;
   padding-left:10px;
-  font-size:15px;
+  font-size:18px;
+  color:black;
   font-family:Arial, Helvetica, sans-serif;
   border: 1px solid rgb(208, 206, 206);
+  border-radius:10px;
 }
 .userpassword {
     width: 360px;
@@ -44,9 +55,12 @@ li{
     margin-left:20px;
     margin-top:10px;
     padding-left:10px;
-    font-size:15px;
+    font-size:18px;
+    color:black;
+    font-size:18px;
     font-family:Arial, Helvetica, sans-serif;
     border: 1px solid rgb(208, 206, 206);
+    border-radius:10px;
   }
   .loginbutton {
     width: 380px;
@@ -56,6 +70,7 @@ li{
     background-color: #1877F2;
     color: #FFFFFF;
     border:none;
+    font-weight:800;
     border-radius: 5px;
     cursor: pointer;
     font-size:20px;
@@ -77,15 +92,15 @@ li{
   margin-top:20px;
 }
 .create {
-  width: 260px;
+  width: 200px;
   height:50px;
   margin-top:20px;
-  margin-left:80px;
+  margin-left:100px;
   background-color: #42B72A;
   color: #FFFFFF;
   border:none;
   border-radius: 5px;
   cursor: pointer;
   font-size:20px;
-  font-style: bold;
+  font-family: 'Roboto', sans-serif;
 }

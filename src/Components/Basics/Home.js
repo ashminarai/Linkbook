@@ -1,10 +1,12 @@
 import React from "react";
 import "./Style.css";
+
 import { Link } from "react-router-dom";
 <link
   href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
   rel="stylesheet"
 />;
+
 
 const Home = () => {
   return (
@@ -12,10 +14,12 @@ const Home = () => {
       <div className="logintext-container">
         <div className="login-textcontainer-content">
           <h2 className="nfb">facebook</h2>
-          <h3 className="connect">
+          <h2 className="connect">
             Connect with friends and the world <br /> around you on Facebook
-          </h3>
+          </h2>
+          
         </div>
+        
         <div className="form-container">
           <form className="form-container-content">
             <input
