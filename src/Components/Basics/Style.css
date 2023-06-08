@@ -1,6 +1,50 @@
-.nfb{
-    color:blue;
+body {
+    background-color: #F0F2F5;
 }
-.navigation-container-content{
+.nfb{
+    color:#1877F2;
+    font-size: 50px;;
+}
+/* .navigation-container-content{
+    display:flex;
+} */
+.navigation-container{
     display:flex;
 }
+
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F0F2F5;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #1877F2;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  
