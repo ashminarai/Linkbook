@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* *[
   margin: 0;
   padding: 0;
 ] */
 a {
-
-  text-decoration:none;
+  text-decoration: none;
 }
 body {
   background-color: #f0f2f5;
+  scroll-behavior: smooth;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 /* .nfb {
   color: #1877f2;
@@ -117,209 +117,212 @@ li{
   font-family: Arial, Helvetica, sans-serif;
   margin-top:7px;
 } */
-@media(max-width:1500px) and (min-width:700px){
+@media (max-width: 1500px) and (min-width: 700px) {
   .nfb {
     color: #1877f2;
-  font-size:50px;
-  margin-left:300px;
-  font-weight:800;
-  margin-top:260px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 260px;
   }
-  .connect{
-    margin-left:240px;
-    font-weight:600;
+  .connect {
+    font-weight: 600;
   }
   .logintext-container {
     display: flex;
   }
+  .login-textcontainer-content {
+    margin-left: 230px;
+  }
   .form-container {
     background-color: white;
     border-radius: 5px;
     border-radius: 10px;
-    margin-left:50px;
-    /* margin-left: 200px; */
-    /* margin-top: 200px; */
-    height: 370px;
-    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-    width:420px;
-  }
-  .userdetails {
-    width: 360px;
-    height:50px;
-    margin-left:20px;
-    margin-top:20px;
-    padding-left:10px;
-    font-size:18px;
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
-    border: 1px solid rgb(208, 206, 206);
-    border-radius:10px;
-  }
-  .userpassword {
-      width: 360px;
-      height:50px;
-      margin-left:20px;
-      margin-top:10px;
-      padding-left:10px;
-      font-size:18px;
-      color:black;
-      font-size:18px;
-      font-family:Arial, Helvetica, sans-serif;
-      border: 1px solid rgb(208, 206, 206);
-      border-radius:10px;
-    }
-    .loginbutton {
-      width: 380px;
-      height:50px;
-      margin-top:10px;
-      margin-left:20px;
-      background-color: #1877F2;
-      color: #FFFFFF;
-      border:none;
-      font-weight:800;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size:20px;
-      font-style: bold;
-    }
-    .forgetpassword{
-      color:#1877f2;
-      font-weight:560;
-      margin-left:140px;
-      font-size:14px;
-      margin-top:30px;
-    }
-    .fpw{
-      margin-top:15px;
-    }
-  .loginhr{
-    opacity: 0.5;
-    width: 370px;
-    margin-top:20px;
-  }
-  .create {
-    width: 200px;
-    height:50px;
-    margin-top:20px;
-    margin-left:100px;
-    background-color: #42B72A;
-    color: #FFFFFF;
-    border:none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size:20px;
-    font-family: 'Roboto', sans-serif;
-  }
-  .final-login-container{
-    display:flex;
-    font-size:17px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left:870px;
-  }
-  .final-login-one{
-    margin-left:5px;
-    font-style: bold;
-    font-size:15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top:7px;
-  }
-}
-@media(min-width:300px){
-  .nfb{
-    color:#1877f2;
-    font-size:50px;
-    margin-left:100px;
-  }
-  /* .logintext-container {
-    display: flex;
-  } */
-  .form-container {
-    background-color: white;
-    border-radius: 5px;
-    border-radius: 10px;
+    margin-left: 200px;
     margin-top: 200px;
     height: 370px;
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-    width:420px;
+    width: 420px;
   }
   .userdetails {
     width: 360px;
-    height:50px;
-    margin-left:20px;
-    margin-top:20px;
-    padding-left:10px;
-    font-size:18px;
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid rgb(208, 206, 206);
-    border-radius:10px;
+    border-radius: 10px;
   }
   .userpassword {
-      width: 360px;
-      height:50px;
-      margin-left:20px;
-      margin-top:10px;
-      padding-left:10px;
-      font-size:18px;
-      color:black;
-      font-size:18px;
-      font-family:Arial, Helvetica, sans-serif;
-      border: 1px solid rgb(208, 206, 206);
-      border-radius:10px;
-    }
-    .loginbutton {
-      width: 380px;
-      height:50px;
-      margin-top:10px;
-      margin-left:20px;
-      background-color: #1877F2;
-      color: #FFFFFF;
-      border:none;
-      font-weight:800;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size:20px;
-      font-style: bold;
-    }
-    .forgetpassword{
-      color:#1877f2;
-      font-weight:560;
-      margin-left:140px;
-      font-size:14px;
-      margin-top:30px;
-    }
-    .fpw{
-      margin-top:15px;
-    }
-  .loginhr{
+    width: 360px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 10px;
+  }
+  .loginbutton {
+    width: 380px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: bold;
+  }
+  .forgetpassword {
+    color: #1877f2;
+    font-weight: 560;
+    margin-left: 140px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .fpw {
+    margin-top: 15px;
+  }
+  .loginhr {
     opacity: 0.5;
     width: 370px;
-    margin-top:20px;
+    margin-top: 20px;
   }
   .create {
     width: 200px;
-    height:50px;
-    margin-top:20px;
-    margin-left:100px;
-    background-color: #42B72A;
-    color: #FFFFFF;
-    border:none;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #42b72a;
+    color: #ffffff;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size:20px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
   }
-  .final-login-container{
-    display:flex;
-    font-size:17px;
+  .final-login-container {
+    display: flex;
+    font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left:870px;
+    margin-left: 870px;
   }
-  .final-login-one{
-    margin-left:5px;
+  .final-login-one {
+    margin-left: 5px;
     font-style: bold;
-    font-size:15px;
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top:7px;
+    margin-top: 7px;
+  }
+}
+@media (max-width:700px) and (min-width: 300px){
+  .nfb {
+    color: #1877f2;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .connect {
+    margin-left: 50px;
+    font-weight: 500;
+  }
+  .form-container {
+    background-color: white;
+    border-radius: 5px;
+    border-radius: 10px;
+    margin-top: 60px;
+    height: 370px;
+    margin-left:40px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    width: 420px;
+  }
+  .userdetails {
+    width: 360px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 10px;
+  }
+  .userpassword {
+    width: 360px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(208, 206, 206);
+    border-radius: 10px;
+  }
+  .loginbutton {
+    width: 380px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: bold;
+  }
+  .forgetpassword {
+    color: #1877f2;
+    font-weight: 560;
+    margin-left: 140px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  .fpw {
+    margin-top: 15px;
+  }
+  .loginhr {
+    opacity: 0.5;
+    width: 370px;
+    margin-top: 20px;
+  }
+  .create {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #42b72a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  .final-login-container {
+    display: flex;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:80px;
+  }
+  .final-login-one {
+    margin-left: 5px;
+    font-style: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
   }
 }
