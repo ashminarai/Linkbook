@@ -104,3 +104,16 @@ li{
   font-size:20px;
   font-family: 'Roboto', sans-serif;
 }
+.final-login-container{
+  display:flex;
+  font-size:17px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left:870px;
+}
+.final-login-one{
+  margin-left:5px;
+  font-style: bold;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top:7px;
+}

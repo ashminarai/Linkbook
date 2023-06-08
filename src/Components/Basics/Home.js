@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
   rel="stylesheet"
 />;
 
-
 const Home = () => {
   return (
     <>
@@ -51,6 +50,15 @@ const Home = () => {
           </form>
         </div>
       </div>
+      <div className="final-login-container">
+          <div className="final-login">
+            <h5>Create a Page</h5>
+          </div>
+          <div className="final-login-one">
+            <p>for a celebrity, brand or business.</p>
+          </div>
+
+        </div>
     </>
   );
 };
