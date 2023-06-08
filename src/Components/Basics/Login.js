@@ -4,7 +4,7 @@ import "./Style.css";
 const Login = () => {
   return (
     <>
-    <h5>hello</h5>
+    
     </>
   )
 }
