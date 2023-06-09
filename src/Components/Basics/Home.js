@@ -58,6 +58,7 @@ const Home = () => {
             <p>for a celebrity, brand or business.</p>
           </div>
 
+          <h5>hello my name is ashmina rai</h5>
         </div>
     </>
   );
