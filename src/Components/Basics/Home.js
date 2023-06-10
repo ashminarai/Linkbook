@@ -16,9 +16,8 @@ const Home = () => {
           <h2 className="connect">
             Connect with friends and the world <br /> around you on Facebook
           </h2>
-          
         </div>
-        
+
         <div className="form-container">
           <form className="form-container-content">
             <input
@@ -42,24 +41,38 @@ const Home = () => {
             </div>
             <hr className="loginhr" />
             <Link to="/register">
-            <button type="submit" className="create">
-            Create new account
-            </button>
+              <button type="submit" className="create">
+                Create new account
+              </button>
             </Link>
-            
           </form>
         </div>
       </div>
       <div className="final-login-container">
-          <div className="final-login">
-            <h5>Create a Page</h5>
-          </div>
-          <div className="final-login-one">
-            <p>for a celebrity, brand or business.</p>
-          </div>
-
-          <h5>hello my name is ashmina rai</h5>
+        <div className="final-login">
+          <h5>Create a Page</h5>
         </div>
+        <div className="final-login-one">
+          <p>for a celebrity, brand or business.</p>
+        </div>
+      </div>
+      <div className="final-login-container">
+        <div className="final-login">
+          <h5>Create a Page</h5>
+        </div>
+        <div className="final-login-one">
+          <p>for a celebrity, brand or business.</p>
+        </div>
+      </div>
+      <div className="final-login-container">
+        <div className="final-login">
+          <h5>Create a Page</h5>
+        </div>
+        <div className="final-login-one">
+          <p>for a celebrity, brand or business.</p>
+        </div>
+      </div>
+      
     </>
   );
 };
