@@ -56,21 +56,8 @@ const Home = () => {
           <p>for a celebrity, brand or business.</p>
         </div>
       </div>
-      <div className="final-login-container">
-        <div className="final-login">
-          <h5>Create a Page</h5>
-        </div>
-        <div className="final-login-one">
-          <p>for a celebrity, brand or business.</p>
-        </div>
-      </div>
-      <div className="final-login-container">
-        <div className="final-login">
-          <h5>Create a Page</h5>
-        </div>
-        <div className="final-login-one">
-          <p>for a celebrity, brand or business.</p>
-        </div>
+      <div>
+        <h5>jotma lekheko because i need to upload still</h5>
       </div>
       
     </>
