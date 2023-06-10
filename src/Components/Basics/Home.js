@@ -63,6 +63,9 @@ const Home = () => {
       <section>
         <p>ds bdhsdhvhdghs vhsgd vdhsgd vdhsgd dhwsa </p>
       </section>
+      <section>
+        <p>ds bdhsdhvhdghs vhsgd vdhsgd vdhsgd dhwsa </p>
+      </section>
       
     </>
   );
