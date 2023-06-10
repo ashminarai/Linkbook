@@ -56,16 +56,6 @@ const Home = () => {
           <p>for a celebrity, brand or business.</p>
         </div>
       </div>
-      <div>
-        <h5>jotma lekheko because i need to upload still</h5>
-      </div>
-      <h5>hdsfhj bhdjwds bwehdsghjws behwdghjwe bbewhasgd hedws</h5>
-      <section>
-        <p>ds bdhsdhvhdghs vhsgd vdhsgd vdhsgd dhwsa </p>
-      </section>
-      <section>
-        <p>ds bdhsdhvhdghs vhsgd vdhsgd vdhsgd dhwsa </p>
-      </section>
       
     </>
   );
