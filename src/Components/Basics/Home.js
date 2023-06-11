@@ -8,13 +8,17 @@ import { Link } from "react-router-dom";
 />;
 
 const Home = () => {
-  const [firstName, setFirstName]=useState('')
-  const [lastName, setLastName]=useState('')
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [error, setError] = useState(false);
 
-  const handleSubmit=(e)=>{
-   e.preventDefault();
-   console.log(firstName,lastName)
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (firstName.length == 0 || lastName.length == 0) {
+      setError(true);
+    }
+    console.log(firstName, lastName);
+  };
   return (
     <>
       <div className="logintext-container">
@@ -27,20 +31,22 @@ const Home = () => {
 
         <div className="form-container">
           <form className="form-container-content" onSubmit={handleSubmit}>
-            <input onChange={e=>setFirstName(e.target.value)}
+            <input
+              onChange={(e) => setFirstName(e.target.value)}
               type="text"
               placeholder="Email or phone number"
               className="userdetails"
             ></input>
             <br />
-            <label>Username or email cannot be empty.</label>
-            <input onChange={e=>setLastName(e.target.value)}
+            {error ? <label>Username or email cannot be empty.</label> : ""}
+            <input
+              onChange={(e) => setLastName(e.target.value)}
               type="text"
               placeholder="Password"
               className="userpassword"
             ></input>
-            <label>Last name cannot be empty.</label>
-            <label>Password should consist of more characters</label>
+            {error?
+            <label>Last name cannot be empty.</label>:""}
             <button type="submit" className="loginbutton">
               Log In
             </button>
@@ -66,7 +72,6 @@ const Home = () => {
           <p>for a celebrity, brand or business.</p>
         </div>
       </div>
-      
     </>
   );
 };
