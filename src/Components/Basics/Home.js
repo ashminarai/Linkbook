@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Style.css";
 
 import { Link } from "react-router-dom";
@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 />;
 
 const Home = () => {
+  const [firstname, setFirstName]=useState('')
+  const [lastname, setLastName]=useState('')
   return (
     <>
       <div className="logintext-container">
@@ -20,17 +22,19 @@ const Home = () => {
 
         <div className="form-container">
           <form className="form-container-content">
-            <input
+            <input onChange={e=>setFirstName(e.target.value)}
               type="text"
               placeholder="Email or phone number"
               className="userdetails"
             ></input>
             <br />
-            <input
+            <label>Username or email cannot be empty.</label>
+            <input onChange={e=>setLastName(e.target.value)}
               type="text"
               placeholder="Password"
               className="userpassword"
             ></input>
+            <label>Password should consist of more characters</label>
             <button type="submit" className="loginbutton">
               Log In
             </button>
