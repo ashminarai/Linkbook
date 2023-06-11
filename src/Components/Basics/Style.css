@@ -326,3 +326,8 @@ li {
     margin-top: 7px;
   }
 }
+.valid{
+  color:red;
+  font-size:12px;
+  margin-left:30px;
+}

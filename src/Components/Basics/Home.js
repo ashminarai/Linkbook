@@ -50,7 +50,7 @@ const Home = () => {
               type="text"
               placeholder="Password"
               className="userpassword"
-            ></input>
+            ></input><br/>
             {error && lastName.length <= 0 ? (
               <label className="valid">Last name cannot be empty.</label>
             ) : (
