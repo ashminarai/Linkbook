@@ -34,6 +34,7 @@ const Home = () => {
               placeholder="Password"
               className="userpassword"
             ></input>
+            <label>Last name cannot be empty.</label>
             <label>Password should consist of more characters</label>
             <button type="submit" className="loginbutton">
               Log In
