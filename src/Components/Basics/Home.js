@@ -17,7 +17,7 @@ const Home = () => {
     if (firstName.length == 0 || lastName.length == 0) {
       setError(true);
     }
-    console.log(firstName, lastName);
+    console.log(firstName,lastName);
   };
   return (
     <>
@@ -38,14 +38,14 @@ const Home = () => {
               className="userdetails"
             ></input>
             <br />
-            {error ? <label>Username or email cannot be empty.</label> : ""}
+            {error&&firstName.length<=0? <label>Username or email cannot be empty.</label> : ""}
             <input
               onChange={(e) => setLastName(e.target.value)}
               type="text"
               placeholder="Password"
               className="userpassword"
             ></input>
-            {error?
+            {error&&lastName.length<=0?
             <label>Last name cannot be empty.</label>:""}
             <button type="submit" className="loginbutton">
               Log In
