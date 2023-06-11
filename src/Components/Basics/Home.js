@@ -17,7 +17,8 @@ const Home = () => {
     if (firstName.length == 0 || lastName.length == 0) {
       setError(true);
     }
-    console.log(firstName, lastName);
+    if(firstName&&lastName)
+    console.log("First Name:",firstName, "\nLast Name:", lastName);
   };
   return (
     <>
