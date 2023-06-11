@@ -8,8 +8,13 @@ import { Link } from "react-router-dom";
 />;
 
 const Home = () => {
-  const [firstname, setFirstName]=useState('')
-  const [lastname, setLastName]=useState('')
+  const [firstName, setFirstName]=useState('')
+  const [lastName, setLastName]=useState('')
+
+  const handleSubmit=(e)=>{
+   e.preventDefault();
+   console.log(firstName,lastName)
+  }
   return (
     <>
       <div className="logintext-container">
@@ -21,7 +26,7 @@ const Home = () => {
         </div>
 
         <div className="form-container">
-          <form className="form-container-content">
+          <form className="form-container-content" onSubmit={handleSubmit}>
             <input onChange={e=>setFirstName(e.target.value)}
               type="text"
               placeholder="Email or phone number"
