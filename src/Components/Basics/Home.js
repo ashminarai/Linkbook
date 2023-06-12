@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Style.css";
+import { isEmail } from "validator";
 
 import { Link } from "react-router-dom";
 <link
@@ -10,6 +11,14 @@ import { Link } from "react-router-dom";
 const Home = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [isValidEmail, setIsValidEmail] = useState(true);
+
+  const handleEmailChange = (e) => {
+    const inputValue = e.target.value;
+    setEmail(inputValue);
+    setIsValidEmail(isEmail(inputValue)); // Validate email on each input change
+  };
   const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
@@ -17,8 +26,8 @@ const Home = () => {
     if (firstName.length == 0 || lastName.length == 0) {
       setError(true);
     }
-    if(firstName&&lastName)
-    console.log("First Name:",firstName, "\nLast Name:", lastName);
+    if (firstName && lastName)
+      console.log("First Name:", firstName, "\nLast Name:", lastName);
   };
   return (
     <>
@@ -46,12 +55,16 @@ const Home = () => {
             ) : (
               ""
             )}
+            <input type="email" value={email} onChange={handleEmailChange} />
+              {!isValidEmail && <label className="valid">Please enter a valid Gmail address.</label>}
+
             <input
               onChange={(e) => setLastName(e.target.value)}
               type="text"
               placeholder="Password"
               className="userpassword"
-            ></input><br/>
+            ></input>
+            <br />
             {error && lastName.length <= 0 ? (
               <label className="valid">Last name cannot be empty.</label>
             ) : (
