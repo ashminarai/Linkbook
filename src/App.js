@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Basics/Home';
 import Login from './Components/Basics/Login';
+import Photo from './Components/Basics/Photo';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
      <Router>
      <Home/>
      <Login/>
+     <Photo/>
      {/* {/* <Route path="/" exact component={Home} /> */} 
     </Router>
   
