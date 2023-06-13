@@ -331,3 +331,10 @@ li {
   font-size:12px;
   margin-left:30px;
 }
+
+
+/* Register CSS starts */
+
+.register-container-content{
+  display:flex;
+}
