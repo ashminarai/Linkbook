@@ -334,23 +334,48 @@ li {
 
 
 /* Register CSS starts */
-
-.register-container-content{
-  display:flex;
-  margin-left:230px;
+@media (max-width: 1500px) and (min-width: 700px) {
+  .register-container-content{
+    display:flex;
+    margin-left:230px;
+  }
+  .form-container-register{
+    background-color:white;
+    width:420px;
+    height:440px;
+    margin-top:150px;
+    margin-left:200px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    border-radius: 10px;
+  }
+  .email{
+    width: 360px;
+      height: 50px;
+      margin-left: 20px;
+      margin-top:10px;
+      padding-left: 10px;
+      font-size: 18px;
+      color: black;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      border: 1px solid rgb(208, 206, 206);
+      border-radius: 10px;
+  }
 }
-.form-container-register{
-  background-color:white;
-  width:420px;
-  height:440px;
-  margin-top:150px;
-  margin-left:200px;
-}
-.email{
-  width: 360px;
+@media (max-width:700px) and (min-width: 300px){
+  .form-container-register{
+    background-color:white;
+    width:420px;
+    height:440px;
+    margin-left:40px;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    border-radius: 10px;
+  }
+  .email{
+    width: 360px;
     height: 50px;
     margin-left: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     padding-left: 10px;
     font-size: 18px;
     color: black;
@@ -358,4 +383,5 @@ li {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid rgb(208, 206, 206);
     border-radius: 10px;
+  }
 }
