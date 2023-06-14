@@ -391,8 +391,47 @@ li {
 }
 .topbarContanier{
   height:60px;
-  background-color:red;
+  background-color:white;
+  -webkit-box-shadow: 0 5px 6px -6px #777;
+  /* box-shadow: 10px 10px 90px #bebebe, -10px -10px 90px #ffffff; */
 }
 .topbarcontent{
   display:flex;
+}
+.fa-magnifying-glass{
+  color:grey;
+  margin-left:10px;
+}
+.topbar-container1{
+  /* background-color:rgb(229, 228, 228); */
+  background-color:rgb(243, 241, 241);
+  height:40px;
+  width:250px;
+  margin-top:10px;
+  border-radius:40px;
+}
+.search{
+  border:none;
+  outline:none;
+  height:35px;
+  margin-left:10px;
+  margin-top:3px;
+  background-color:rgb(243, 241, 241);
+  font-size:15px;
+  /* margin-top:10px; */
+}
+.fa-house{
+  color:rgb(53, 53, 53);
+}
+.fa-user-group{
+  color:rgb(160, 160, 160);
+}
+.fa-store{
+  color:rgb(160, 160, 160);
+}
+.fa-people-group{
+  color:rgb(160, 160, 160);
+}
+.fa-gamepad{
+  color:rgb(160, 160, 160)
 }
