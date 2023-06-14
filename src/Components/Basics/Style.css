@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/* *[
-  margin: 0;
-  padding: 0;
-] */
 a {
   text-decoration: none;
 }
@@ -13,110 +9,6 @@ body {
 li {
   list-style: none;
 }
-/* .nfb {
-  color: #1877f2;
-  font-size:50px;
-  margin-left:240px;
-  font-weight:800;
-  margin-top:260px;
-}
-.connect{
-  margin-left:240px;
-  font-weight:600;
-} */
-/* .logintext-container {
-  display: flex;
-}
-.form-container {
-  background-color: white;
-  border-radius: 5px;
-  border-radius: 10px;
-  margin-left: 200px;
-  margin-top: 200px;
-  height: 370px;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
-  width:420px;
-}
-.userdetails {
-  width: 360px;
-  height:50px;
-  margin-left:20px;
-  margin-top:20px;
-  padding-left:10px;
-  font-size:18px;
-  color:black;
-  font-family:Arial, Helvetica, sans-serif;
-  border: 1px solid rgb(208, 206, 206);
-  border-radius:10px;
-}
-.userpassword {
-    width: 360px;
-    height:50px;
-    margin-left:20px;
-    margin-top:10px;
-    padding-left:10px;
-    font-size:18px;
-    color:black;
-    font-size:18px;
-    font-family:Arial, Helvetica, sans-serif;
-    border: 1px solid rgb(208, 206, 206);
-    border-radius:10px;
-  }
-  .loginbutton {
-    width: 380px;
-    height:50px;
-    margin-top:10px;
-    margin-left:20px;
-    background-color: #1877F2;
-    color: #FFFFFF;
-    border:none;
-    font-weight:800;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size:20px;
-    font-style: bold;
-  }
-  .forgetpassword{
-    color:#1877f2;
-    font-weight:560;
-    margin-left:140px;
-    font-size:14px;
-    margin-top:30px;
-  }
-  .fpw{
-    margin-top:15px;
-  }
-.loginhr{
-  opacity: 0.5;
-  width: 370px;
-  margin-top:20px;
-}
-.create {
-  width: 200px;
-  height:50px;
-  margin-top:20px;
-  margin-left:100px;
-  background-color: #42B72A;
-  color: #FFFFFF;
-  border:none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size:20px;
-  font-family: 'Roboto', sans-serif;
-}
-.final-login-container{
-  display:flex;
-  font-size:17px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left:870px;
-}
-.final-login-one{
-  margin-left:5px;
-  font-style: bold;
-  font-size:15px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-top:7px;
-} */
 @media (max-width: 1500px) and (min-width: 700px) {
   .nfb {
     color: #1877f2;
@@ -404,7 +296,6 @@ li {
   margin-left:10px;
 }
 .topbar-container1{
-  /* background-color:rgb(229, 228, 228); */
   background-color:rgb(243, 241, 241);
   height:40px;
   width:250px;
@@ -419,69 +310,73 @@ li {
   margin-top:3px;
   background-color:rgb(243, 241, 241);
   font-size:15px;
-  /* margin-top:10px; */
 }
 .fa-house{
   color:rgb(53, 53, 53);
-  margin-left:40px;
+  margin-left:48px;
   padding-top:20px;
   position:relative;
   cursor:pointer;
-}
-.fa-sharps{
-  position: absolute;
-  margin-left:30px;
-  transform: translateX(-50%);
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.3s;
-}
-.fa-house:hover .fa-sharps {
-  visibility: visible;
-  opacity: 1;
+  font-size:22px;
 }
 .fa-user-group{
   color:rgb(53, 53, 53);
   margin-left:40px;
   padding-top:20px;
-  /* color:rgb(160, 160, 160); */
+  position:relative;
+  cursor:pointer;
+  font-size:22px;
 }
 .fa-store{
   color:rgb(53, 53, 53);
   margin-left:40px;
   padding-top:20px;
+  position:relative;
+  cursor:pointer;
+  font-size:22px;
   /* color:rgb(160, 160, 160); */
 }
 .fa-people-group{
   color:rgb(53, 53, 53);
   margin-left:40px;
   padding-top:20px;
+  position:relative;
+  cursor:pointer;
+  font-size:22px;
   /* color:rgb(160, 160, 160); */
 }
 .fa-gamepad{
   color:rgb(53, 53, 53);
   margin-left:40px;
   padding-top:20px;
+  position:relative;
+  cursor:pointer;
+  font-size:22px;
 
 }
-.hover-element {
+.container {
   position: relative;
+  margin-left:100px;
+  display: inline-block;
+  
 }
-
-.text {
+.home {
+  visibility: hidden;
   position: absolute;
   top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #f1f1f1;
-  padding: 5px;
+  transform: translateX(-60%);
   border-radius: 4px;
-  visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.3s;
+  transition: opacity 0.3s;
 }
-
-.hover-element:hover .text {
+.container:hover .home {
   visibility: visible;
   opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:60px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:5px;
 }

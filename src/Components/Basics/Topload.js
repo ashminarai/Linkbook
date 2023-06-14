@@ -22,19 +22,29 @@ const Topload = () => {
             ></input>
           </div>
           <div class="container">
-            {/* <div class="hover-element"> */}
             <i class="fa-sharp fa-solid fa-house hover-element"></i>
-              <span class="text">Home</span>
-            </div>
+            <span class="home">Home</span>
           </div>
+          <div class="container2">
+          <i class="fa-solid fa-user-group"></i>
+            <span class="home">Home</span>
+          </div>
+          <div class="container3">
+          <i class="fa-solid fa-store"></i>
+            <span class="home">Home</span>
+          </div>
+          <div class="container4">
+          <i class="fa-solid fa-people-group"></i>
+            <span class="home">Home</span>
+          </div>
+          <div class="container5">
+          <i class="fa-solid fa-gamepad"></i>
+            <span class="home">Home</span>
+          </div>
+        </div>
 
-          {/* <div className="topbar-container2">
-            <i class="fa-sharp fa-solid fa-house"></i>
-            <br />
-            <br />
-            <span className="fa-sharps">Home</span>
-          </div> */}
-          {/* <div className="topbar-container3">
+       
+        {/* <div className="topbar-container3">
             <i class="fa-solid fa-user-group"></i>
           </div>
 
@@ -47,7 +57,7 @@ const Topload = () => {
           <div className="topbar-container6">
             <i class="fa-solid fa-gamepad"></i>
           </div> */}
-        </div>
+      </div>
     </>
   );
 };
