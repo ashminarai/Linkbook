@@ -337,4 +337,10 @@ li {
 
 .register-container-content{
   display:flex;
+  margin-left:230px;
+}
+.form-container-register{
+  background-color:white;
+  height:400px;
+  margin-top:150px;
 }

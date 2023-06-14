@@ -5,6 +5,7 @@ import "./Style.css";
 const Register = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
@@ -27,8 +28,8 @@ const Register = () => {
           </div>
         </div>
 
-        <div className="form-container">
-          <form className="form-container-content" onSubmit={handleSubmit}>
+        <div className="form-container-register">
+          <form className="form-container-register-content" onSubmit={handleSubmit}>
             <input
               onChange={(e) => setFirstName(e.target.value)}
               type="text"
@@ -55,6 +56,13 @@ const Register = () => {
             ) : (
               ""
             )}
+            <br/>
+            <input
+              onChange={(e) => setEmail(e.target.value)}
+              type="email"
+              placeholder="Email"
+              className="email"
+            ></input>
             <button type="submit" className="loginbutton">
               Log In
             </button>
