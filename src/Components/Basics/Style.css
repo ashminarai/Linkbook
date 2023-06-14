@@ -388,6 +388,7 @@ li {
 
 .logo{
   height:60px;
+  margin-left:30px;
 }
 .topbarContanier{
   height:60px;
@@ -422,16 +423,65 @@ li {
 }
 .fa-house{
   color:rgb(53, 53, 53);
+  margin-left:40px;
+  padding-top:20px;
+  position:relative;
+  cursor:pointer;
+}
+.fa-sharps{
+  position: absolute;
+  margin-left:30px;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+.fa-house:hover .fa-sharps {
+  visibility: visible;
+  opacity: 1;
 }
 .fa-user-group{
-  color:rgb(160, 160, 160);
+  color:rgb(53, 53, 53);
+  margin-left:40px;
+  padding-top:20px;
+  /* color:rgb(160, 160, 160); */
 }
 .fa-store{
-  color:rgb(160, 160, 160);
+  color:rgb(53, 53, 53);
+  margin-left:40px;
+  padding-top:20px;
+  /* color:rgb(160, 160, 160); */
 }
 .fa-people-group{
-  color:rgb(160, 160, 160);
+  color:rgb(53, 53, 53);
+  margin-left:40px;
+  padding-top:20px;
+  /* color:rgb(160, 160, 160); */
 }
 .fa-gamepad{
-  color:rgb(160, 160, 160)
+  color:rgb(53, 53, 53);
+  margin-left:40px;
+  padding-top:20px;
+
+}
+.hover-element {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f1f1f1;
+  padding: 5px;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s;
+}
+
+.hover-element:hover .text {
+  visibility: visible;
+  opacity: 1;
 }
