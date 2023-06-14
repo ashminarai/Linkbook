@@ -56,7 +56,6 @@ const Register = () => {
             ) : (
               ""
             )}
-            <br/>
             <input
               onChange={(e) => setEmail(e.target.value)}
               type="email"
@@ -72,11 +71,11 @@ const Register = () => {
               </Link>
             </div>
             <hr className="loginhr" />
-            <Link to="/register">
+            {/* <Link to="/register"> */}
               <button type="submit" className="create">
-                Create new account
+                Register
               </button>
-            </Link>
+            {/* </Link> */}
           </form>
         </div>
       </div>
