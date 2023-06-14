@@ -1,6 +1,7 @@
 import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
+// import HomeIcon from '@mui/icons-material/Home';
 // import {Search} from "@material-ui/icons"
 
 const Topload = () => {
@@ -13,6 +14,7 @@ const Topload = () => {
             <Link to="/">
               <img src="../Images/logo.png" className="logo"></img>
             </Link>
+            {/* <HomeIcon/> */}
           </div>
           <div className="topbar-container1">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -43,6 +45,7 @@ const Topload = () => {
             <span class="home">Gaming</span>
           </div>
         </div>
+        demo
 
 
        
