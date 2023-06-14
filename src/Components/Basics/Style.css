@@ -385,3 +385,14 @@ li {
     border-radius: 10px;
   }
 }
+
+.logo{
+  height:60px;
+}
+.topbarContanier{
+  height:60px;
+  background-color:red;
+}
+.topbarcontent{
+  display:flex;
+}

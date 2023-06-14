@@ -1,16 +1,39 @@
-import React from 'react'
+import React from "react";
+import "./Style.css";
+// import {Search} from "@material-ui/icons"
 
 const Topload = () => {
   return (
-   <>
-   <div className='topload-contanier-content'>
-    <div className='topload-container'>
-       <img src="../Images/linkbook.jpeg"></img>
-    </div>
+    <>
+      <div className="topbarContanier">
+        <div className="topbarcontent">
+          <div className="topbar-container">
+            <img src="../Images/logo.png" className="logo"></img>
+          </div>
+          <div className="topbar-container1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search Linkbook"className="search"></input>
+          </div>
+          <div className="topbar-container2">
+          <i class="fa-sharp fa-solid fa-house"></i>
+          </div>
+          <div className="topbar-container2">
+          <i class="fa-sharp fa-solid fa-house"></i>
+          </div>
+          <div className="topbar-container2">
+          <i class="fa-sharp fa-solid fa-house"></i>
+          </div>
+          <div className="topbar-container2">
+          <i class="fa-sharp fa-solid fa-house"></i>
+          </div>
+          <div className="topbar-container2">
+          <i class="fa-sharp fa-solid fa-house"></i>
+          </div>
+          
+        </div>
+      </div>
+    </>
+  );
+};
 
-   </div>
-   </>
-  )
-}
-
-export default Topload
+export default Topload;
