@@ -312,15 +312,16 @@ li {
   font-size:15px;
 }
 .fa-house{
-  color:rgb(53, 53, 53);
+  color:rgb(142, 138, 138);
   margin-left:48px;
   padding-top:20px;
   position:relative;
   cursor:pointer;
   font-size:22px;
+  /* font-weight:500; */
 }
 .fa-user-group{
-  color:rgb(53, 53, 53);
+  color:rgb(142, 138, 138);
   margin-left:40px;
   padding-top:20px;
   position:relative;
@@ -328,7 +329,7 @@ li {
   font-size:22px;
 }
 .fa-store{
-  color:rgb(53, 53, 53);
+  color:rgb(142, 138, 138);
   margin-left:40px;
   padding-top:20px;
   position:relative;
@@ -337,7 +338,7 @@ li {
   /* color:rgb(160, 160, 160); */
 }
 .fa-people-group{
-  color:rgb(53, 53, 53);
+  color:rgb(142, 138, 138);
   margin-left:40px;
   padding-top:20px;
   position:relative;
@@ -346,7 +347,7 @@ li {
   /* color:rgb(160, 160, 160); */
 }
 .fa-gamepad{
-  color:rgb(53, 53, 53);
+  color:rgb(142, 138, 138);
   margin-left:40px;
   padding-top:20px;
   position:relative;
@@ -370,6 +371,102 @@ li {
   transition: opacity 0.3s;
 }
 .container:hover .home {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:60px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:5px;
+}
+.container2{
+  margin-left:60px;
+  position:relative;
+}
+.home {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-60%);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.container2:hover .home {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:60px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:5px;
+}
+.container3{
+  margin-left:60px;
+  position:relative;
+}
+.home {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-60%);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.container3:hover .home {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:60px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:5px;
+}
+.container4{
+  margin-left:60px;
+  position:relative;
+}
+.home {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-60%);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.container4:hover .home {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:60px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:5px;
+}
+.container5{
+  margin-left:60px;
+  position: relative;
+}
+.home {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-60%);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.container5:hover .home {
   visibility: visible;
   opacity: 1;
   background-color: rgba(53, 53, 53, 0.8);
