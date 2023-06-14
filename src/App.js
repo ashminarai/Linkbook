@@ -5,6 +5,7 @@ import Home from "./Components/Basics/Home";
 import Login from "./Components/Basics/Login";
 import Photo from "./Components/Basics/Photo";
 import Register from "./Components/Basics/Register";
+import Topload from "./Components/Basics/Topload";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/register" element={<Register />}></Route>
+          <Route path="/mainfeed" element={<Topload />}></Route>
         </Routes>
         <Login />
         <Photo />

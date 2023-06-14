@@ -71,11 +71,11 @@ const Register = () => {
               </Link>
             </div>
             <hr className="loginhr" />
-            {/* <Link to="/register"> */}
+            <Link to="/mainfeed">
               <button type="submit" className="create">
                 Register
               </button>
-            {/* </Link> */}
+            </Link>
           </form>
         </div>
       </div>
