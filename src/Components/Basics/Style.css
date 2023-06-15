@@ -459,7 +459,7 @@ li {
   width:40px;
   margin-top:10px;
   border-radius:50%;
-  margin-left:150px;
+  margin-left:170px;
 }
 .container6:hover .home {
   visibility: visible;
@@ -526,10 +526,22 @@ li {
 }
 .container9{
   position:relative;
-  background-color:rgb(220, 220, 220);
-  height:40px;
-  width:40px;
-  margin-top:10px;
-  border-radius:50%;
-  margin-left:10px;
+  margin-top:5px;
+  margin-left:19px;
+  position:relative;
+}
+.user{
+  height:50px;
+  width:50px;
+}
+.container9:hover .home {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:80px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:8px;
 }
