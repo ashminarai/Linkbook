@@ -545,3 +545,9 @@ li {
   text-align:center;
   padding-top:8px;
 }
+
+
+/* timeline css starts */
+.timeline-container{
+  display:flex;
+}

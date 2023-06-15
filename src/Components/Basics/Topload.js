@@ -1,8 +1,7 @@
 import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
-// import HomeIcon from '@mui/icons-material/Home';
-// import {Search} from "@material-ui/icons"
+import Timeline from "./Timeline";
 
 const Topload = () => {
   return (
@@ -13,7 +12,6 @@ const Topload = () => {
             <Link to="/">
               <img src="../Images/logo.png" className="logo"></img>
             </Link>
-            {/* <HomeIcon/> */}
           </div>
           <div className="topbar-container1">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -58,26 +56,14 @@ const Topload = () => {
           </div>
           <div class="container9">
             <img src="../Images/User.jpeg" className="user"></img>
-            {/* <i class="fa-solid fa-bell"></i> */}
+
             <span className="home">Account</span>
           </div>
         </div>
-
-
-        {/* <div className="topbar-container3">
-            <i class="fa-solid fa-user-group"></i>
-          </div>
-
-          <div className="topbar-container4">
-            <i class="fa-solid fa-store"></i>
-          </div>
-          <div className="topbar-container5">
-            <i class="fa-solid fa-people-group"></i>
-          </div>
-          <div className="topbar-container6">
-            <i class="fa-solid fa-gamepad"></i>
-          </div> */}
       </div>
+     <Timeline/>
+
+      {/* <h5>sidebar</h5> */}
     </>
   );
 };

@@ -6,6 +6,7 @@ import Login from "./Components/Basics/Login";
 import Photo from "./Components/Basics/Photo";
 import Register from "./Components/Basics/Register";
 import Topload from "./Components/Basics/Topload";
+import Timeline from "./Components/Basics/Timeline";
 import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
