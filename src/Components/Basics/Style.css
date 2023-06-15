@@ -361,15 +361,6 @@ li {
   display: inline-block;
   
 }
-.home {
-  visibility: hidden;
-  position: absolute;
-  top: 100%;
-  transform: translateX(-60%);
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
 .container:hover .home {
   visibility: visible;
   opacity: 1;
@@ -379,20 +370,11 @@ li {
   color:white;
   border-radius:5px;
   text-align:center;
-  padding-top:5px;
+  padding-top:8px;
 }
 .container2{
   margin-left:60px;
   position:relative;
-}
-.home {
-  visibility: hidden;
-  position: absolute;
-  top: 100%;
-  transform: translateX(-60%);
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.3s;
 }
 .container2:hover .home {
   visibility: visible;
@@ -403,13 +385,15 @@ li {
   color:white;
   border-radius:5px;
   text-align:center;
-  padding-top:5px;
+  padding-top:8px;
 }
 .container3{
   margin-left:60px;
   position:relative;
 }
 .home {
+  font-size:13px;
+  /* text-align:center; */
   visibility: hidden;
   position: absolute;
   top: 100%;
@@ -423,24 +407,15 @@ li {
   opacity: 1;
   background-color: rgba(53, 53, 53, 0.8);
   height:25px;
-  width:60px;
+  width:100px;
   color:white;
   border-radius:5px;
   text-align:center;
-  padding-top:5px;
+  padding-top:8px;
 }
 .container4{
   margin-left:60px;
   position:relative;
-}
-.home {
-  visibility: hidden;
-  position: absolute;
-  top: 100%;
-  transform: translateX(-60%);
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.3s;
 }
 .container4:hover .home {
   visibility: visible;
@@ -451,7 +426,7 @@ li {
   color:white;
   border-radius:5px;
   text-align:center;
-  padding-top:5px;
+  padding-top:9px;
 }
 .container5{
   margin-left:60px;
@@ -475,24 +450,16 @@ li {
   color:white;
   border-radius:5px;
   text-align:center;
-  padding-top:5px;
+  padding-top:8px;
 }
 .container6{
   position:relative;
   background-color:rgb(220, 220, 220);
   height:40px;
   width:40px;
+  margin-top:10px;
   border-radius:50%;
-  /* background-color: red; */
-}
-.home {
-  visibility: hidden;
-  position: absolute;
-  top: 100%;
-  transform: translateX(-60%);
-  border-radius: 4px;
-  opacity: 0;
-  transition: opacity 0.3s;
+  margin-left:150px;
 }
 .container6:hover .home {
   visibility: visible;
@@ -503,5 +470,33 @@ li {
   color:white;
   border-radius:5px;
   text-align:center;
-  padding-top:5px;
+  padding-top:8px;
+}
+.fa-bars{
+  margin-left:13px;
+  margin-top:11px;
+}
+.container7{
+  position:relative;
+  background-color:rgb(220, 220, 220);
+  height:40px;
+  width:40px;
+  margin-top:10px;
+  border-radius:50%;
+  margin-left:10px;
+}
+.container7:hover .home {
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height:25px;
+  width:80px;
+  color:white;
+  border-radius:5px;
+  text-align:center;
+  padding-top:8px;
+}
+.fa-facebook-messenger{
+  margin-left:13px;
+  margin-top:11px;
 }
