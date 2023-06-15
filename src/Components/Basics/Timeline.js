@@ -1,5 +1,7 @@
 import React from 'react'
-import Topload from './Topload'
+import Sidebar from './Sidebar'
+import Middlebar from './Middlebar'
+import Rightbar from './Rightbar'
 
 const Timeline = () => {
   return (
@@ -7,13 +9,13 @@ const Timeline = () => {
     <div className='timeline-container-content'>
         <div className='timeline-container'>
             <div className='timeline'>
-                <h5>Sidebar</h5>
+                <Sidebar/>
             </div>
             <div className='timeline2'>
-                <h5>Middlebar</h5>
+                <Middlebar/>
             </div>
             <div className='timeline3'>
-                <h5>Leftbar</h5>
+                <Rightbar/>
             </div>
 
         </div>

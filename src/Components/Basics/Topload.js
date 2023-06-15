@@ -61,7 +61,10 @@ const Topload = () => {
           </div>
         </div>
       </div>
-     <Timeline/>
+      <div>
+        <Timeline/>
+      </div>
+     
 
       {/* <h5>sidebar</h5> */}
     </>
