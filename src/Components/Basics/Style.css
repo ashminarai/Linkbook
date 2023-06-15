@@ -479,7 +479,10 @@ li {
 }
 .container6{
   position:relative;
-  background-color:red;
+  background-color:rgb(220, 220, 220);
+  height:40px;
+  width:40px;
+  border-radius:50%;
   /* background-color: red; */
 }
 .home {

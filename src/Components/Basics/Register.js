@@ -18,6 +18,7 @@ const Register = () => {
   };
   return (
     <>
+   
       <div className="register-container-content">
         <div className="register-container">
           <div className="register">
