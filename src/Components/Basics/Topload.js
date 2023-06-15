@@ -54,7 +54,7 @@ const Topload = () => {
           </div>
           <div class="container8">
             <i class="fa-solid fa-bell"></i>
-            <span className="home">Messenger</span>
+            <span className="home">Notifications</span>
           </div>
           <div class="container9">
             <img src="../Images/User.jpeg" className="user"></img>

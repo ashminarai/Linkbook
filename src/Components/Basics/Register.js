@@ -1,14 +1,33 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
+// import axios from "axios";
 import "./Style.css";
 
 const Register = () => {
+  // let n = useNavigate(); 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
 
   const handleSubmit = (e) => {
+    // axios.post("http://127.0.0.1:3001/users"),{
+    //   firstName: firstName,
+    //   lastName: lastName,
+    //   email:email,
+    //   isRegistered: 0
+    // }
+    // .then((response) => {
+    //   if (response.data.error) {
+    //     alert(response.data.error);
+    //   } else if (response.data.success) {
+    //     n("/login");
+    //     alert(response.data.success);
+    //   }
+    // });
+
+
     e.preventDefault();
     if (firstName.length == 0 || lastName.length == 0) {
       setError(true);
