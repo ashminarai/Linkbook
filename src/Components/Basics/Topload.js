@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 const Topload = () => {
   return (
     <>
-    
       <div className="topbarContanier">
         <div className="topbarcontent">
           <div className="topbar-container">
@@ -29,26 +28,31 @@ const Topload = () => {
             <span class="home">Home</span>
           </div>
           <div class="container2">
-          <i class="fa-solid fa-user-group"></i>
+            <i class="fa-solid fa-user-group"></i>
             <span class="home">Friends</span>
           </div>
           <div class="container3">
-          <i class="fa-solid fa-store"></i>
+            <i class="fa-solid fa-store"></i>
             <span class="home">Markets</span>
           </div>
           <div class="container4">
-          <i class="fa-solid fa-people-group"></i>
+            <i class="fa-solid fa-people-group"></i>
             <span class="home">Groups</span>
           </div>
           <div class="container5">
-          <i class="fa-solid fa-gamepad"></i>
+            <i class="fa-solid fa-gamepad"></i>
             <span class="home">Gaming</span>
           </div>
+
+          <div class="container6">
+          <i class="fa-solid fa-bars"></i>
+          <span className="home">Menu</span>
+          </div>
+
+
+          
         </div>
         demo
-
-
-       
         {/* <div className="topbar-container3">
             <i class="fa-solid fa-user-group"></i>
           </div>
