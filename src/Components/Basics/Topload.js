@@ -52,8 +52,17 @@ const Topload = () => {
             <i class="fa-brands fa-facebook-messenger"></i>
             <span className="home">Messenger</span>
           </div>
+          <div class="container8">
+            <i class="fa-solid fa-bell"></i>
+            <span className="home">Messenger</span>
+          </div>
+          <div class="container9">
+            <img src="../Images/User.jpeg" className="user"></img>
+            {/* <i class="fa-solid fa-bell"></i> */}
+            <span className="home">Account</span>
+          </div>
         </div>
-        demo
+
         {/* <div className="topbar-container3">
             <i class="fa-solid fa-user-group"></i>
           </div>
