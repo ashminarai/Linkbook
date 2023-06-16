@@ -884,7 +884,7 @@ li {
 
 .newsfeed-container-content{
   margin-top:10px;
-  height:600px;
+  height:800px;
   background-color:white; 
   -webkit-box-shadow: 0 5px 6px -6px #777; 
   border-radius:10px;
@@ -957,3 +957,11 @@ li {
   height:670px;
   width:670px;
 }
+.fa-earth{
+  margin-left:10px;
+  color: #979595;
+}
+.date{
+  color: #979595;
+}
+

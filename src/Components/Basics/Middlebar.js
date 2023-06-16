@@ -26,24 +26,12 @@ const Middlebar = () => {
           </div>
         </div>
         <hr className="middlehr" />
-        <div className="storybox-container-content">
+        {/* <div className="storybox-container-content">
           <div className="storybox-container">
             <div className="Storybox">
               <i class="fas fa-search addstories vaag"></i>
             </div>
           </div>
-        </div>
-        {/* <div className="App">
-          <Carousel breakPoints={breakPoints}>
-            <Item>One</Item>
-            <Item>Two</Item>
-            <Item>Three</Item>
-            <Item>Four</Item>
-            <Item>Five</Item>
-            <Item>Six</Item>
-            <Item>Seven</Item>
-            <Item>Eight</Item>
-          </Carousel>
         </div> */}
       </div>
       <div className="poststatus-container-content">
@@ -113,6 +101,40 @@ const Middlebar = () => {
 
        </div>
       </div>
+
+      <div className="newsfeed-container-content">
+        <div className="newsfeed-container">
+          <div className="newsfeed">
+            <img src="../Images/photo.jpeg" className="photoqu"></img>
+            {/* <h5 className="mq">Movie Quote</h5> */}
+          </div>
+          <div className="newsfeed1">
+            <span className="mq">Movie Quote</span>
+            {/* <br /> */}
+            <div>
+              <span className="date">1d.</span>
+              <i className="fas fa-earth"></i>
+            </div>
+          </div>
+
+          <div className="newsfeed3">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
+          <div className="newsfeed4">
+          <i class="fa-solid fa-xmark"></i>
+
+          </div>
+        </div>
+
+       <div className="images-container-content">
+        <div className="images-container">
+          <img src="../Images/truth.jpeg" className="care" alt=""></img>
+        </div>
+
+       </div>
+      </div>
+
+      
 
       </section>
     </>
