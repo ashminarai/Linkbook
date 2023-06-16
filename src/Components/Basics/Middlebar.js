@@ -24,6 +24,15 @@ const Middlebar = () => {
           </div>
         </div>
         <hr className="middlehr" />
+        <div className="storybox-container-content">
+          <div className="storybox-container">
+            <div className="Storybox">
+              <i class="fas fa-search addstories vaag"></i>
+            </div>
+
+          </div>
+
+        </div>
         {/* <div className="App">
           <Carousel breakPoints={breakPoints}>
             <Item>One</Item>
@@ -58,16 +67,26 @@ const Middlebar = () => {
               <h5 className="livevidos">Live Video</h5>
             </div>
             <div className="postvideo1">
-              <i class="fa-solid fa-video livevideo"></i>
+            <i class="fa-solid fa-image statusimage"></i>
               <h5 className="livevidos">Live Video</h5>
             </div>
             <div className="postvideo2">
-              <i class="fa-solid fa-video livevideo"></i>
+            <i class="fa-regular fa-face-smile smiley"></i>
               <h5 className="livevidos">Live Video</h5>
             </div>
           </div>
         </div>
       </div>
+
+      <div className="newsfeed-container-content">
+          <div className="newsfeed-container">
+            <div className="newsfeed">
+             <h3>Hi</h3>
+            </div>
+
+          </div>
+
+        </div>
     </>
   );
 };
