@@ -6,6 +6,7 @@ import Timeline from "./Timeline";
 const Topload = () => {
   return (
     <>
+    <section className="toploadsquad">
       <div className="topbarContanier">
         <div className="topbarcontent">
           <div className="topbar-container">
@@ -62,6 +63,8 @@ const Topload = () => {
           </div>
         </div>
       </div>
+      
+      </section>
       <div>
         <Timeline />
       </div>

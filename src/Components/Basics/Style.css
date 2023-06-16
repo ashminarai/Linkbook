@@ -573,8 +573,9 @@ li {
   margin-left: 320px;
 }
 .sidebar-container-content {
-  background-color: rgb(236, 236, 236);
-  width: 1440px;
+  /* background-color: rgb(236, 236, 236); */
+  /* width: 1440px; */
+  width:340px;
   height: 1400px;
 }
 .middlebar-container-content {
@@ -851,4 +852,86 @@ li {
   width:300px;
   opacity: 0.3;
 }
+.housesdemo{
+  position:relative;
+  height:70px;
+  width:150px;
+}
+.home{
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  transform: translateX(-60%);
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.housesdemo:hover .home{
+  visibility: visible;
+  opacity: 1;
+  background-color: rgba(53, 53, 53, 0.8);
+  height: 25px;
+  width: 60px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 8px;
+}
 
+
+
+.newsfeed-container-content{
+  margin-top:10px;
+  height:600px;
+  background-color:white; 
+  -webkit-box-shadow: 0 5px 6px -6px #777; 
+  border-radius:10px;
+  width: 670px;
+}
+.newsfeed-container{
+  display: flex;
+}
+.photoqu{
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  margin-top:20px;
+  margin-left:20px;
+}
+.mq{
+  margin-left:20px;
+  font-weight:700;
+  /* padding-top:30px; */
+}
+.date{
+  font-size:13px;
+  margin-left:20px;
+}
+.newsfeed1{
+  margin-top:20px;
+}
+.par{
+  font-size:10px;
+  margin-top:10px;
+}
+.newsfeed{
+  display: flex;
+}
+.newsfeed3{
+  margin-left:400px;
+  margin-top:20px;
+}
+.fa-ellipsis{
+  color:#8b8a8a;
+}
+.middlesquad{
+  margin-left:360px;
+  margin-top:80px;
+}
+.sidebarsquad{
+  position: fixed;
+  margin-top:50px;
+}
+.toploadsquad{
+  position: fixed;
+} 

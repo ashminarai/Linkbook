@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <>
+    <section className="sidebarsquad">
       <div className="sidebar-container-content">
         <div className="sidebar-container">
           {/* <Link to="/"> */}
@@ -69,6 +70,7 @@ const Sidebar = () => {
          
         </div>
       </div>
+      </section>
       
     </>
   );

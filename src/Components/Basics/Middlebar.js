@@ -8,6 +8,7 @@ import React from "react";
 const Middlebar = () => {
   return (
     <>
+    <section className="middlesquad">
       <div className="middlebar-container-content">
         <div className="middlebar-container">
           <div className="middlebar">
@@ -29,9 +30,7 @@ const Middlebar = () => {
             <div className="Storybox">
               <i class="fas fa-search addstories vaag"></i>
             </div>
-
           </div>
-
         </div>
         {/* <div className="App">
           <Carousel breakPoints={breakPoints}>
@@ -49,7 +48,11 @@ const Middlebar = () => {
       <div className="poststatus-container-content">
         <div className="poststatus-container">
           <div className="poststatus">
-            <img className="poststatusphoto" src="../Images/User.jpeg" alt=""></img>
+            <img
+              className="poststatusphoto"
+              src="../Images/User.jpeg"
+              alt=""
+            ></img>
           </div>
           <div className="poststatus1">
             <input
@@ -67,11 +70,11 @@ const Middlebar = () => {
               <h5 className="livevidos">Live Video</h5>
             </div>
             <div className="postvideo1">
-            <i class="fa-solid fa-image statusimage"></i>
+              <i class="fa-solid fa-image statusimage"></i>
               <h5 className="livevidos">Live Video</h5>
             </div>
             <div className="postvideo2">
-            <i class="fa-regular fa-face-smile smiley"></i>
+              <i class="fa-regular fa-face-smile smiley"></i>
               <h5 className="livevidos">Live Video</h5>
             </div>
           </div>
@@ -79,14 +82,26 @@ const Middlebar = () => {
       </div>
 
       <div className="newsfeed-container-content">
-          <div className="newsfeed-container">
-            <div className="newsfeed">
-             <h3>Hi</h3>
+        <div className="newsfeed-container">
+          <div className="newsfeed">
+            <img src="../Images/photo.jpeg" className="photoqu"></img>
+            {/* <h5 className="mq">Movie Quote</h5> */}
+          </div>
+          <div className="newsfeed1">
+            <span className="mq">Movie Quote</span>
+            {/* <br /> */}
+            <div>
+              <span className="date">1d.</span>
+              <i className="fas fa-earth"></i>
             </div>
-
           </div>
 
+          <div className="newsfeed3">
+            <i class="fa-solid fa-ellipsis"></i>
+          </div>
         </div>
+      </div>
+      </section>
     </>
   );
 };
