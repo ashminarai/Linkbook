@@ -49,7 +49,7 @@ const Middlebar = () => {
       <div className="poststatus-container-content">
         <div className="poststatus-container">
           <div className="poststatus">
-            <img className="poststatusphoto" src="../Images/User.jpeg"></img>
+            <img className="poststatusphoto" src="../Images/User.jpeg" alt=""></img>
           </div>
           <div className="poststatus1">
             <input
