@@ -22,6 +22,7 @@ const Topload = () => {
             ></input>
           </div>
           <div class="container">
+            {/* <img className="fa-sharp fa-solid fa-house hover-element" src="../Images/house.png"></img> */}
             <i class="fa-sharp fa-solid fa-house hover-element"></i>
             <span class="home">Home</span>
           </div>
@@ -62,9 +63,8 @@ const Topload = () => {
         </div>
       </div>
       <div>
-        <Timeline/>
+        <Timeline />
       </div>
-     
 
       {/* <h5>sidebar</h5> */}
     </>
