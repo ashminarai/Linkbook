@@ -60,11 +60,11 @@ const Middlebar = () => {
             </div>
             <div className="postvideo1">
               <i class="fa-solid fa-image statusimage"></i>
-              <h5 className="livevidos">Live Video</h5>
+              <h5 className="livevidos">Photo/Video</h5>
             </div>
             <div className="postvideo2">
               <i class="fa-regular fa-face-smile smiley"></i>
-              <h5 className="livevidos">Live Video</h5>
+              <h5 className="livevidos">Feeling/Activity</h5>
             </div>
           </div>
         </div>
