@@ -643,10 +643,70 @@ li {
 .fa-video:hover{
   color:green;
 }
-/* .middlebar:hover{
-  background-color:rgb(180, 175, 175);
+.poststatus-container-content{
+  background-color: white;
+  width:670px;
+  height:150px;
+  border-radius:10px;
+  -webkit-box-shadow: 0 5px 6px -6px #777;
   margin-top:10px;
-  width:150px;
-  scroll-behavior: smooth;
+  /* height:1400px; */
 
-} */
+}
+.poststatusphoto{
+  height:50px;
+  width:50px;
+}
+.poststatus-container{
+  display:flex;
+  margin-left:15px;
+  padding-top:20px;
+}
+
+.statusinput{
+  width:400px;
+  border:none;
+  outline:none;
+  height:30px;
+  padding-left:15px;
+  background-color:#f3eeee;
+  font-size:17px;
+  margin-top:5px;
+  margin-left:10px;
+}
+.poststatus1{
+  width:580px;
+  height:40px;
+  background-color: #f3eeee;
+  margin-left:10px;
+  border-radius: 40px;
+}
+.postvideo-container{
+  display:flex;
+}
+.statushr{
+  width:620px;
+  opacity: 0.3;
+}
+.postvideo{
+  display:flex;
+}
+.livevidos{
+  margin-top:17px;
+  margin-left:10px;
+  color:gray;
+}
+.livevideo{
+  height:40px;
+  margin-left:80px;
+  margin-top:10px;
+  width:40px;
+  color:red;
+  font-size:30px;
+}
+.postvideo1{
+  display:flex;
+}
+.postvideo2{
+  display:flex;
+}
