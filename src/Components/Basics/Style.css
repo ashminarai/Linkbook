@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
 a {
   text-decoration: none;
 }
@@ -286,9 +287,10 @@ li {
   margin-left: 10px;
 }
 .topbarContanier {
-  position: sticky;
+  /* position: sticky; */
   height: 60px;
   background-color: white;
+  width:1440px;
   -webkit-box-shadow: 0 5px 6px -6px #777;
   /* box-shadow: 10px 10px 90px #bebebe, -10px -10px 90px #ffffff; */
 }
@@ -470,7 +472,7 @@ li {
   width: 40px;
   margin-top: 10px;
   border-radius: 50%;
-  margin-left: 200px;
+  margin-left: 210px;
 }
 .container6:hover .home {
   visibility: visible;
@@ -900,7 +902,9 @@ li {
 }
 .mq{
   margin-left:20px;
-  font-weight:700;
+  /* font-weight:400; */
+ font-family: 'Roboto', sans-serif;;
+
   /* padding-top:30px; */
 }
 .date{
@@ -918,11 +922,24 @@ li {
   display: flex;
 }
 .newsfeed3{
-  margin-left:400px;
+  margin-left:420px;
   margin-top:20px;
 }
 .fa-ellipsis{
   color:#8b8a8a;
+}
+.newsfeed4{
+  font-size:20px;
+  margin-top:17px;
+  font-weight:200;
+  margin-left:20px;
+}
+.fa-xmark{
+  color:#8b8a8a;
+}
+.fa-xmark:hover{
+  color: grey;
+  border-radius: 40px;
 }
 .middlesquad{
   margin-left:360px;
@@ -935,3 +952,8 @@ li {
 .toploadsquad{
   position: fixed;
 } 
+.care{
+  margin-top:20px;
+  height:670px;
+  width:670px;
+}

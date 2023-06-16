@@ -8,6 +8,7 @@ import React from "react";
 const Middlebar = () => {
   return (
     <>
+    
     <section className="middlesquad">
       <div className="middlebar-container-content">
         <div className="middlebar-container">
@@ -99,8 +100,20 @@ const Middlebar = () => {
           <div className="newsfeed3">
             <i class="fa-solid fa-ellipsis"></i>
           </div>
+          <div className="newsfeed4">
+          <i class="fa-solid fa-xmark"></i>
+
+          </div>
         </div>
+
+       <div className="images-container-content">
+        <div className="images-container">
+          <img src="../Images/care.jpeg" className="care" alt=""></img>
+        </div>
+
+       </div>
       </div>
+
       </section>
     </>
   );
