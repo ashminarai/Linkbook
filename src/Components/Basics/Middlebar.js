@@ -1187,13 +1187,15 @@ const Middlebar = () => {
         </div>
 
        </div>
+
+
+       hello
       </div>
       
 
 
       
-      
-
+    
 
 
       
