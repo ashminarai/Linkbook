@@ -98,6 +98,14 @@ const Middlebar = () => {
         <div className="images-container">
           <img src="../Images/care.jpeg" className="care" alt=""></img>
         </div>
+        <div className="react-container-content">
+          <div className="react-container">
+            <img src="../Images/react.png" className="reactp"></img>
+          </div>
+          <div className="react-container2">
+            <span className="likes">15k</span>
+          </div>
+        </div>
 
        </div>
       </div>

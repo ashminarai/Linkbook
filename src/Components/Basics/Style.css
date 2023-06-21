@@ -968,3 +968,15 @@ li {
   margin-left:1200px;
   background-color: red;
 }
+.reactp{
+  height:30px;
+  margin-top:8px;
+  margin-left:20px;
+}
+.react-container-content{
+  display:flex;
+}
+.react-container2{
+  margin-top:13px;
+  color:grey;
+}
