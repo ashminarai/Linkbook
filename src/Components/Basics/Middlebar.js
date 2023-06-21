@@ -112,6 +112,18 @@ const Middlebar = () => {
             <span className="shares">7.7k shares</span>
           </div>
         </div>
+        <hr className="likeshr"/>
+        <div className="likecomsh-container-content">
+          <div className="likecomsh-container">
+            <img className="likebtn" src="../Images/likes.png"></img>
+          </div>
+          <div className="likecomsh-container">
+            <img className="cmtbtn" src="../Images/comments.png"></img>
+          </div>
+          <div className="likecomsh-container">
+            <img className="shabtn" src="../Images/shares.png"></img>
+          </div>
+        </div>
 
        </div>
       </div>
