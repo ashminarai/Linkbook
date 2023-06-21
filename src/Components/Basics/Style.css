@@ -1045,3 +1045,18 @@ li {
   width:300px;
   margin-left:30px;
 }
+.contacts-container-content{
+  display:flex;
+}
+.camcroder{
+  height:20px;
+  margin-top:20px;
+}
+.investigate{
+  height:20px;
+  margin-top:20px;
+}
+.loader{
+  height:20px;
+  margin-top:20px;
+}
