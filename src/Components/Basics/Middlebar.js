@@ -105,6 +105,12 @@ const Middlebar = () => {
           <div className="react-container2">
             <span className="likes">15k</span>
           </div>
+          <div className="react-container3">
+            <span className="com">362 comments</span>
+          </div>
+          <div className="react-container4">
+            <span className="shares">7.7k shares</span>
+          </div>
         </div>
 
        </div>
