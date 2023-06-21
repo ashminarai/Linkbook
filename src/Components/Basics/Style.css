@@ -994,3 +994,40 @@ li {
   width:620px;
   opacity:0.3;
 }
+.likebtn{
+  height:25px;
+}
+.cmtbtn{
+  height:25px;
+}
+.shabtn{
+  height:25px;
+}
+.likecomsh-container-content{
+  display:flex;
+}
+.likecomsh-container{
+  margin-left:60px;
+}
+.likecomsh-container1{
+  color:grey;
+  margin-top:3px;
+  margin-left:10px;
+}
+.likecomsh-container2{
+  margin-left:150px;
+}
+.likecomsh-container3{
+  color:grey;
+  margin-top:3px;
+  margin-left:10px;
+}
+.likecomsh-container4{
+  margin-left:150px;
+}
+.likecomsh-container5{
+  color:grey;
+  margin-top:3px;
+  margin-left:10px;
+}
+
