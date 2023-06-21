@@ -71,7 +71,7 @@ const Middlebar = () => {
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
+              <img src="../Images/photo.jpeg" className="photoqu" alt=""></img>
               {/* <h5 className="mq">Movie Quote</h5> */}
             </div>
             <div className="newsfeed1">
@@ -97,7 +97,7 @@ const Middlebar = () => {
             </div>
             <div className="react-container-content">
               <div className="react-container">
-                <img src="../Images/react.png" className="reactp"  alt=""></img>
+                <img src="../Images/react.png" className="reactp" alt=""></img>
               </div>
               <div className="react-container2">
                 <span className="likes">15k</span>
@@ -112,269 +112,17 @@ const Middlebar = () => {
             <hr className="likeshr" />
             <div className="likecomsh-container-content">
               <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
+                <img className="likebtn" src="../Images/likes.png" alt=""></img>
               </div>
               <div className="likecomsh-container1">
                 <span>Like</span>
               </div>
               <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container3">
-                <span>comment</span>
-              </div>
-              <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container5">
-                <span>Share</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="newsfeed-container-content">
-          <div className="newsfeed-container">
-            <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
-              {/* <h5 className="mq">Movie Quote</h5> */}
-            </div>
-            <div className="newsfeed1">
-              <span className="mq">Movie Quote</span>
-              {/* <br /> */}
-              <div>
-                <span className="date">1d.</span>
-                <i className="fas fa-earth"></i>
-              </div>
-            </div>
-
-            <div className="newsfeed3">
-              <i class="fa-solid fa-ellipsis"></i>
-            </div>
-            <div className="newsfeed4">
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-          </div>
-
-          <div className="images-container-content">
-            <div className="images-container">
-              <img src="../Images/care.jpeg" className="care" alt=""></img>
-            </div>
-            <div className="react-container-content">
-              <div className="react-container">
-                <img src="../Images/react.png" className="reactp"  alt=""></img>
-              </div>
-              <div className="react-container2">
-                <span className="likes">15k</span>
-              </div>
-              <div className="react-container3">
-                <span className="com">362 comments</span>
-              </div>
-              <div className="react-container4">
-                <span className="shares">7.7k shares</span>
-              </div>
-            </div>
-            <hr className="likeshr" />
-            <div className="likecomsh-container-content">
-              <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container1">
-                <span>Like</span>
-              </div>
-              <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container3">
-                <span>comment</span>
-              </div>
-              <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container5">
-                <span>Share</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="newsfeed-container-content">
-          <div className="newsfeed-container">
-            <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
-              {/* <h5 className="mq">Movie Quote</h5> */}
-            </div>
-            <div className="newsfeed1">
-              <span className="mq">Movie Quote</span>
-              {/* <br /> */}
-              <div>
-                <span className="date">1d.</span>
-                <i className="fas fa-earth"></i>
-              </div>
-            </div>
-
-            <div className="newsfeed3">
-              <i class="fa-solid fa-ellipsis"></i>
-            </div>
-            <div className="newsfeed4">
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-          </div>
-
-          <div className="images-container-content">
-            <div className="images-container">
-              <img src="../Images/care.jpeg" className="care" alt=""></img>
-            </div>
-            <div className="react-container-content">
-              <div className="react-container">
-                <img src="../Images/react.png" className="reactp"  alt=""></img>
-              </div>
-              <div className="react-container2">
-                <span className="likes">15k</span>
-              </div>
-              <div className="react-container3">
-                <span className="com">362 comments</span>
-              </div>
-              <div className="react-container4">
-                <span className="shares">7.7k shares</span>
-              </div>
-            </div>
-            <hr className="likeshr" />
-            <div className="likecomsh-container-content">
-              <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container1">
-                <span>Like</span>
-              </div>
-              <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container3">
-                <span>comment</span>
-              </div>
-              <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container5">
-                <span>Share</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="newsfeed-container-content">
-          <div className="newsfeed-container">
-            <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
-              {/* <h5 className="mq">Movie Quote</h5> */}
-            </div>
-            <div className="newsfeed1">
-              <span className="mq">Movie Quote</span>
-              {/* <br /> */}
-              <div>
-                <span className="date">1d.</span>
-                <i className="fas fa-earth"></i>
-              </div>
-            </div>
-
-            <div className="newsfeed3">
-              <i class="fa-solid fa-ellipsis"></i>
-            </div>
-            <div className="newsfeed4">
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-          </div>
-
-          <div className="images-container-content">
-            <div className="images-container">
-              <img src="../Images/care.jpeg" className="care" alt=""></img>
-            </div>
-            <div className="react-container-content">
-              <div className="react-container">
-                <img src="../Images/react.png" className="reactp"  alt=""></img>
-              </div>
-              <div className="react-container2">
-                <span className="likes">15k</span>
-              </div>
-              <div className="react-container3">
-                <span className="com">362 comments</span>
-              </div>
-              <div className="react-container4">
-                <span className="shares">7.7k shares</span>
-              </div>
-            </div>
-            <hr className="likeshr" />
-            <div className="likecomsh-container-content">
-              <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container1">
-                <span>Like</span>
-              </div>
-              <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container3">
-                <span>comment</span>
-              </div>
-              <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container5">
-                <span>Share</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="newsfeed-container-content">
-          <div className="newsfeed-container">
-            <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
-              {/* <h5 className="mq">Movie Quote</h5> */}
-            </div>
-            <div className="newsfeed1">
-              <span className="mq">Movie Quote</span>
-              {/* <br /> */}
-              <div>
-                <span className="date">1d.</span>
-                <i className="fas fa-earth"></i>
-              </div>
-            </div>
-
-            <div className="newsfeed3">
-              <i class="fa-solid fa-ellipsis"></i>
-            </div>
-            <div className="newsfeed4">
-              <i class="fa-solid fa-xmark"></i>
-            </div>
-          </div>
-
-          <div className="images-container-content">
-            <div className="images-container">
-              <img src="../Images/care.jpeg" className="care" alt=""></img>
-            </div>
-            <div className="react-container-content">
-              <div className="react-container">
-                <img src="../Images/react.png" className="reactp"  alt=""></img>
-              </div>
-              <div className="react-container2">
-                <span className="likes">15k</span>
-              </div>
-              <div className="react-container3">
-                <span className="com">362 comments</span>
-              </div>
-              <div className="react-container4">
-                <span className="shares">7.7k shares</span>
-              </div>
-            </div>
-            <hr className="likeshr" />
-            <div className="likecomsh-container-content">
-              <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
-              </div>
-              <div className="likecomsh-container1">
-                <span>Like</span>
-              </div>
-              <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
+                <img
+                  className="cmtbtn"
+                  src="../Images/comments.png"
+                  alt=""
+                ></img>
               </div>
               <div className="likecomsh-container3">
                 <span>comment</span>
@@ -388,7 +136,10 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
+        
+        
 
+        {/* reels started */}
         <div className="reels-container-content">
           <div className="reels-contentss">
             <div className="reels-container">
@@ -409,17 +160,150 @@ const Middlebar = () => {
             </div>
           </div>
 
-          <div className="reels-container">
+          <div className="reels-container4">
             <video controls>
-              <source src="../Videos/tiktok.mp4" />
+              <source src="../Videos/tiktok.mp4" className="tiktok" />
             </video>
           </div>
         </div>
 
-        <div className="App">
-          <video controls>
-            <source src="../Videos/tiktok.mp4" type="video/mp4" />
-          </video>
+        {/* reels completed */}
+
+        <div className="newsfeed-container-content">
+          <div className="newsfeed-container">
+            <div className="newsfeed">
+              <img src="../Images/photo.jpeg" className="photoqu" alt=""></img>
+              {/* <h5 className="mq">Movie Quote</h5> */}
+            </div>
+            <div className="newsfeed1">
+              <span className="mq">Movie Quote</span>
+              {/* <br /> */}
+              <div>
+                <span className="date">1d.</span>
+                <i className="fas fa-earth"></i>
+              </div>
+            </div>
+
+            <div className="newsfeed3">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div className="newsfeed4">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+
+          <div className="images-container-content">
+            <div className="images-container">
+              <img src="../Images/care.jpeg" className="care" alt=""></img>
+            </div>
+            <div className="react-container-content">
+              <div className="react-container">
+                <img src="../Images/react.png" className="reactp" alt=""></img>
+              </div>
+              <div className="react-container2">
+                <span className="likes">15k</span>
+              </div>
+              <div className="react-container3">
+                <span className="com">362 comments</span>
+              </div>
+              <div className="react-container4">
+                <span className="shares">7.7k shares</span>
+              </div>
+            </div>
+            <hr className="likeshr" />
+            <div className="likecomsh-container-content">
+              <div className="likecomsh-container">
+                <img className="likebtn" src="../Images/likes.png" alt=""></img>
+              </div>
+              <div className="likecomsh-container1">
+                <span>Like</span>
+              </div>
+              <div className="likecomsh-container2">
+                <img
+                  className="cmtbtn"
+                  src="../Images/comments.png"
+                  alt=""
+                ></img>
+              </div>
+              <div className="likecomsh-container3">
+                <span>comment</span>
+              </div>
+              <div className="likecomsh-container4">
+                <img className="shabtn" src="../Images/shares.png" alt=""></img>
+              </div>
+              <div className="likecomsh-container5">
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="newsfeed-container-content">
+          <div className="newsfeed-container">
+            <div className="newsfeed">
+              <img src="../Images/photo.jpeg" className="photoqu" alt=""></img>
+              {/* <h5 className="mq">Movie Quote</h5> */}
+            </div>
+            <div className="newsfeed1">
+              <span className="mq">Movie Quote</span>
+              {/* <br /> */}
+              <div>
+                <span className="date">1d.</span>
+                <i className="fas fa-earth"></i>
+              </div>
+            </div>
+
+            <div className="newsfeed3">
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div className="newsfeed4">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+
+          <div className="images-container-content">
+            <div className="images-container">
+              <img src="../Images/care.jpeg" className="care" alt=""></img>
+            </div>
+            <div className="react-container-content">
+              <div className="react-container">
+                <img src="../Images/react.png" className="reactp" alt=""></img>
+              </div>
+              <div className="react-container2">
+                <span className="likes">15k</span>
+              </div>
+              <div className="react-container3">
+                <span className="com">362 comments</span>
+              </div>
+              <div className="react-container4">
+                <span className="shares">7.7k shares</span>
+              </div>
+            </div>
+            <hr className="likeshr" />
+            <div className="likecomsh-container-content">
+              <div className="likecomsh-container">
+                <img className="likebtn" src="../Images/likes.png" alt=""></img>
+              </div>
+              <div className="likecomsh-container1">
+                <span>Like</span>
+              </div>
+              <div className="likecomsh-container2">
+                <img
+                  className="cmtbtn"
+                  src="../Images/comments.png"
+                  alt=""
+                ></img>
+              </div>
+              <div className="likecomsh-container3">
+                <span>comment</span>
+              </div>
+              <div className="likecomsh-container4">
+                <img className="shabtn" src="../Images/shares.png" alt=""></img>
+              </div>
+              <div className="likecomsh-container5">
+                <span>Share</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
