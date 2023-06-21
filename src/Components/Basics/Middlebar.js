@@ -71,7 +71,7 @@ const Middlebar = () => {
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"></img>
+              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
               {/* <h5 className="mq">Movie Quote</h5> */}
             </div>
             <div className="newsfeed1">
@@ -97,7 +97,7 @@ const Middlebar = () => {
             </div>
             <div className="react-container-content">
               <div className="react-container">
-                <img src="../Images/react.png" className="reactp"></img>
+                <img src="../Images/react.png" className="reactp"  alt=""></img>
               </div>
               <div className="react-container2">
                 <span className="likes">15k</span>
@@ -112,19 +112,19 @@ const Middlebar = () => {
             <hr className="likeshr" />
             <div className="likecomsh-container-content">
               <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"></img>
+                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
               </div>
               <div className="likecomsh-container1">
                 <span>Like</span>
               </div>
               <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"></img>
+                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
               </div>
               <div className="likecomsh-container3">
                 <span>comment</span>
               </div>
               <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"></img>
+                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
               </div>
               <div className="likecomsh-container5">
                 <span>Share</span>
@@ -135,7 +135,7 @@ const Middlebar = () => {
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"></img>
+              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
               {/* <h5 className="mq">Movie Quote</h5> */}
             </div>
             <div className="newsfeed1">
@@ -161,7 +161,7 @@ const Middlebar = () => {
             </div>
             <div className="react-container-content">
               <div className="react-container">
-                <img src="../Images/react.png" className="reactp"></img>
+                <img src="../Images/react.png" className="reactp"  alt=""></img>
               </div>
               <div className="react-container2">
                 <span className="likes">15k</span>
@@ -176,19 +176,19 @@ const Middlebar = () => {
             <hr className="likeshr" />
             <div className="likecomsh-container-content">
               <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"></img>
+                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
               </div>
               <div className="likecomsh-container1">
                 <span>Like</span>
               </div>
               <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"></img>
+                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
               </div>
               <div className="likecomsh-container3">
                 <span>comment</span>
               </div>
               <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"></img>
+                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
               </div>
               <div className="likecomsh-container5">
                 <span>Share</span>
@@ -199,7 +199,7 @@ const Middlebar = () => {
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"></img>
+              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
               {/* <h5 className="mq">Movie Quote</h5> */}
             </div>
             <div className="newsfeed1">
@@ -225,7 +225,7 @@ const Middlebar = () => {
             </div>
             <div className="react-container-content">
               <div className="react-container">
-                <img src="../Images/react.png" className="reactp"></img>
+                <img src="../Images/react.png" className="reactp"  alt=""></img>
               </div>
               <div className="react-container2">
                 <span className="likes">15k</span>
@@ -240,19 +240,19 @@ const Middlebar = () => {
             <hr className="likeshr" />
             <div className="likecomsh-container-content">
               <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"></img>
+                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
               </div>
               <div className="likecomsh-container1">
                 <span>Like</span>
               </div>
               <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"></img>
+                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
               </div>
               <div className="likecomsh-container3">
                 <span>comment</span>
               </div>
               <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"></img>
+                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
               </div>
               <div className="likecomsh-container5">
                 <span>Share</span>
@@ -263,7 +263,7 @@ const Middlebar = () => {
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"></img>
+              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
               {/* <h5 className="mq">Movie Quote</h5> */}
             </div>
             <div className="newsfeed1">
@@ -289,7 +289,7 @@ const Middlebar = () => {
             </div>
             <div className="react-container-content">
               <div className="react-container">
-                <img src="../Images/react.png" className="reactp"></img>
+                <img src="../Images/react.png" className="reactp"  alt=""></img>
               </div>
               <div className="react-container2">
                 <span className="likes">15k</span>
@@ -304,19 +304,19 @@ const Middlebar = () => {
             <hr className="likeshr" />
             <div className="likecomsh-container-content">
               <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"></img>
+                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
               </div>
               <div className="likecomsh-container1">
                 <span>Like</span>
               </div>
               <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"></img>
+                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
               </div>
               <div className="likecomsh-container3">
                 <span>comment</span>
               </div>
               <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"></img>
+                <img className="shabtn" src="../Images/shares.png"  alt=""></img>
               </div>
               <div className="likecomsh-container5">
                 <span>Share</span>
@@ -327,7 +327,7 @@ const Middlebar = () => {
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
-              <img src="../Images/photo.jpeg" className="photoqu"></img>
+              <img src="../Images/photo.jpeg" className="photoqu"  alt=""></img>
               {/* <h5 className="mq">Movie Quote</h5> */}
             </div>
             <div className="newsfeed1">
@@ -353,7 +353,7 @@ const Middlebar = () => {
             </div>
             <div className="react-container-content">
               <div className="react-container">
-                <img src="../Images/react.png" className="reactp"></img>
+                <img src="../Images/react.png" className="reactp"  alt=""></img>
               </div>
               <div className="react-container2">
                 <span className="likes">15k</span>
@@ -368,19 +368,19 @@ const Middlebar = () => {
             <hr className="likeshr" />
             <div className="likecomsh-container-content">
               <div className="likecomsh-container">
-                <img className="likebtn" src="../Images/likes.png"></img>
+                <img className="likebtn" src="../Images/likes.png"  alt=""></img>
               </div>
               <div className="likecomsh-container1">
                 <span>Like</span>
               </div>
               <div className="likecomsh-container2">
-                <img className="cmtbtn" src="../Images/comments.png"></img>
+                <img className="cmtbtn" src="../Images/comments.png"  alt=""></img>
               </div>
               <div className="likecomsh-container3">
                 <span>comment</span>
               </div>
               <div className="likecomsh-container4">
-                <img className="shabtn" src="../Images/shares.png"></img>
+                <img className="shabtn" src="../Images/shares.png" alt=""></img>
               </div>
               <div className="likecomsh-container5">
                 <span>Share</span>
@@ -388,12 +388,34 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="reels-container-content">
+          <div className="reels-contentss">
+            <div className="reels-container">
+              <img
+                src="../Images/reels.png"
+                className="reelss"
+                alt="reels"
+              ></img>
+            </div>
+            <div className="reels-container1">
+              <h3>Reels and short videos</h3>
+            </div>
+            <div className="reels-container2">
+              <h3>Create</h3>
+            </div>
+            <div className="reels-container3">
+              <img src="../Images/loader.png" className="load" alt=""></img>
+            </div>
+          </div>
+
           <div className="reels-container">
-            <video  controls><source src="../Videos/tiktok.mp4"/></video>
+            <video controls>
+              <source src="../Videos/tiktok.mp4" />
+            </video>
           </div>
         </div>
+
         <div className="App">
           <video controls>
             <source src="../Videos/tiktok.mp4" type="video/mp4" />

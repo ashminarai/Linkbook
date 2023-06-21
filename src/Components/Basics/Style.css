@@ -1085,3 +1085,29 @@ li {
   -webkit-box-shadow: 0 5px 6px -6px #777;
   border-radius:10px;
 }
+.reelss{
+  height:30px;
+  margin-top:20px;
+  margin-left:30px;
+}
+.reels-contentss{
+  display: flex;
+}
+.reels-container1{
+  margin-left:10px;
+  margin-top:5px;
+}
+.reels-container2{
+  margin-top:5px;
+  margin-left:250px;
+}
+.reels-container2 h3{
+ color:rgb(0, 128, 255);
+ font-weight:500;
+
+}
+.load{
+  height:20px;
+  margin-top:25px;
+  margin-left:20px;
+}

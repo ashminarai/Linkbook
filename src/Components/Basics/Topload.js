@@ -11,7 +11,7 @@ const Topload = () => {
         <div className="topbarcontent">
           <div className="topbar-container">
             <Link to="/">
-              <img src="../Images/logo.png" className="logo"></img>
+              <img src="../Images/logo.png" className="logo"  alt=""></img>
             </Link>
           </div>
           <div className="topbar-container1">
@@ -23,7 +23,7 @@ const Topload = () => {
             ></input>
           </div>
           <div class="container">
-            {/* <img className="fa-sharp fa-solid fa-house hover-element" src="../Images/house.png"></img> */}
+            {/* <img className="fa-sharp fa-solid fa-house hover-element" src="../Images/house.png"  alt=""></img> */}
             <i class="fa-sharp fa-solid fa-house hover-element"></i>
             <span class="home">Home</span>
           </div>
@@ -57,8 +57,7 @@ const Topload = () => {
             <span className="home">Notifications</span>
           </div>
           <div class="container9">
-            <img src="../Images/User.jpeg" className="user"></img>
-
+            <img src="../Images/User.jpeg" className="user"  alt=""></img>
             <span className="home">Account</span>
           </div>
         </div>
