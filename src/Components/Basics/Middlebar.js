@@ -68,7 +68,6 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
-
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
@@ -133,7 +132,6 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
-
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
@@ -198,8 +196,6 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
-
-
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
@@ -264,8 +260,6 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
-
-
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
@@ -330,7 +324,6 @@ const Middlebar = () => {
             </div>
           </div>
         </div>
-
         <div className="newsfeed-container-content">
           <div className="newsfeed-container">
             <div className="newsfeed">
@@ -394,6 +387,17 @@ const Middlebar = () => {
               </div>
             </div>
           </div>
+        </div>
+        
+        <div className="reels-container-content">
+          <div className="reels-container">
+            <video  controls><source src="../Videos/tiktok.mp4"/></video>
+          </div>
+        </div>
+        <div className="App">
+          <video controls>
+            <source src="../Videos/tiktok.mp4" type="video/mp4" />
+          </video>
         </div>
       </section>
     </>

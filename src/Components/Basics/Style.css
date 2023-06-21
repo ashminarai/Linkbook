@@ -1078,3 +1078,10 @@ li {
 .rightsquad{
   position: fixed;
 }
+.reels-container-content{
+  margin-top:20px;
+  height:600px;
+  background-color:white;
+  -webkit-box-shadow: 0 5px 6px -6px #777;
+  border-radius:10px;
+}
