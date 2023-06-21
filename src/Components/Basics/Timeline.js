@@ -12,9 +12,11 @@ const Timeline = () => {
                 <Sidebar/>
             </div>
             <div className='timeline2'>
+              {/* <h1>hi</h1> */}
                 <Middlebar/>
             </div>
             <div className='timeline3'>
+                {/* <h3>Hi</h3> */}
                 <Rightbar/>
             </div>
 

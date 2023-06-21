@@ -8,7 +8,7 @@ const Rightbar = () => {
       <div className='rightbar-container'>
         <div className='rightbar'>
           <h5 className='sponser'>
-           hello
+         <h1>Demo</h1>
           </h5>
         </div>
 

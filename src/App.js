@@ -16,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/register" element={<Register />}></Route>
           <Route path="/mainfeed" element={<Topload />}></Route>
+          <Route path="/mainfeed" element={<Timeline />}></Route>
         </Routes>
         <Login />
         <Photo />
