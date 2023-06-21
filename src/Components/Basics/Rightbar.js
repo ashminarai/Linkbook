@@ -4,7 +4,8 @@ import "./Style.css";
 const Rightbar = () => {
   return (
     <>
-    <div className='rightbar-container-content'>
+    <h1 className='demohello'>Hello</h1>
+    {/* <div className='rightbar-container-content'>
       <div className='rightbar-container'>
         <div className='rightbar'>
           <h5 className='sponser'>
@@ -14,7 +15,7 @@ const Rightbar = () => {
 
       </div>
 
-    </div>
+    </div> */}
     </>
   )
 }
