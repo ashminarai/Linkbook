@@ -1072,7 +1072,7 @@ li {
   margin-left:20px;
 }
 .contlist{
-  height:330px;
+  height:350px;
   margin-left:30px;
 }
 .rightsquad{
@@ -1100,6 +1100,7 @@ li {
 .reels-container2{
   margin-top:5px;
   margin-left:250px;
+  cursor:pointer;
 }
 .reels-container2 h3{
  color:rgb(0, 128, 255);
@@ -1114,5 +1115,8 @@ li {
 .reels-container4{
   margin-left:30px;
   margin-top:20px;
+}
+.tiktok{
+  border-radius:20px;
 }
 
