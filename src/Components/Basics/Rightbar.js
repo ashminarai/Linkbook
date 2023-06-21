@@ -6,14 +6,11 @@ const Rightbar = () => {
     <>
     <h3 className='demosponsered'>Sponsored</h3>
     <img className='rightsponser' src="../Images/sponser.png" alt="sp"></img>
-   <div className='rightbar-containers-content'>
-      <div className='rightbars-containers'>
-        <div className='rightbarss-contents'>
-        
-        </div>
-
+    <hr className="contactshr"/>
+    <div className='contacts-container-content'>
+      <div className='contacts-container'>
+        <h5>hello</h5>
       </div>
-
     </div>
     </>
   )
