@@ -4,18 +4,17 @@ import "./Style.css";
 const Rightbar = () => {
   return (
     <>
-    <h1 className='demohello'>Hello</h1>
-    {/* <div className='rightbar-container-content'>
-      <div className='rightbar-container'>
-        <div className='rightbar'>
-          <h5 className='sponser'>
-         <h1>Demo</h1>
-          </h5>
+    <h3 className='demosponsered'>Sponsored</h3>
+    <img className='rightsponser' src="../Images/sponser.png" alt="sp"></img>
+   <div className='rightbar-containers-content'>
+      <div className='rightbars-containers'>
+        <div className='rightbarss-contents'>
+        
         </div>
 
       </div>
 
-    </div> */}
+    </div>
     </>
   )
 }
