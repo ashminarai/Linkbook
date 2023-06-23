@@ -1117,10 +1117,14 @@ li {
   margin-top:20px;
 }
 .tiktok{
-  border-radius:20px;
+  border-radius:10px;
 }
 .tiktok1{
-  border-radius:20px;
-  margin-left:10px;
+  border-radius:10px;
+  margin-left:5px;
 }
+/* .tiktok2{
+  border-radius:20px;
+  margin-left:5px;
+} */
 
