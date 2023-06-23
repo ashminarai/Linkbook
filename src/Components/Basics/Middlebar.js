@@ -178,6 +178,18 @@ const Middlebar = () => {
               <source src="../Videos/tiktok.mp4" className="tiktok" />
             </video>
           </div>
+          <div className="reels-container4">
+            <video controls className="tiktok">
+              <source src="../Videos/tiktok.mp4" className="tiktok" />
+            </video>
+          </div>
+          <div className="reels-container4">
+            <video controls className="tiktok">
+              <source src="../Videos/tiktok.mp4" className="tiktok" />
+            </video>
+          </div>
+
+
 
 
 
