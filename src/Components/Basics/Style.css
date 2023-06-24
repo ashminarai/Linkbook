@@ -1077,9 +1077,9 @@ li {
   height:350px;
   margin-left:30px;
 }
-.rightsquad{
+/* .rightsquad{
   position: fixed;
-}
+}  */
 .reels-container-content{
   margin-top:20px;
   height:600px;
@@ -1127,7 +1127,5 @@ li {
 }
 .chatboxlist{
   background-color:red;
-  margin-top:100%;
-  /* position: absolute; */
+  top:100%;
 }
-

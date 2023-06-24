@@ -56,9 +56,12 @@ const Topload = () => {
             <i class="fa-brands fa-facebook-messenger" >{""}</i>
             <span className="home">Messenger</span>
           </div>
+          <div>
           <Popup trigger={buttonPopup} setTrigger={()=>setButtonPopup} >
             <h5 className="chatboxlist">messenger list</h5>
           </Popup>
+          </div>
+         
           <div class="container8">
             <i class="fa-solid fa-bell"></i>
             <span className="home">Notifications</span>
