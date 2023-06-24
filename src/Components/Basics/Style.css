@@ -497,6 +497,7 @@ li {
   margin-top: 10px;
   border-radius: 50%;
   margin-left: 10px;
+  cursor:pointer;
 }
 .container7:hover .home {
   visibility: visible;
@@ -512,6 +513,7 @@ li {
 .fa-facebook-messenger {
   margin-left: 13px;
   margin-top: 11px;
+  cursor:pointer;
 }
 .container8 {
   position: relative;
@@ -1077,6 +1079,7 @@ li {
 }
 .rightsquad{
   position: fixed;
+  /* position:absolute; */
 }
 .reels-container-content{
   margin-top:20px;
@@ -1127,7 +1130,4 @@ li {
   border-radius:20px;
   margin-left:5px;
 } */
-.ml{
-  margin-top:300px;
-}
 
