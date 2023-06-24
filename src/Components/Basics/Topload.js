@@ -2,8 +2,11 @@ import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
 import Timeline from "./Timeline";
+import Popup from "./Popup";
+import {useState} from "react";
 
 const Topload = () => {
+  const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <>
     <section className="toploadsquad">
@@ -49,9 +52,12 @@ const Topload = () => {
             <span className="home">Menu</span>
           </div>
           <div class="container7">
-            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-brands fa-facebook-messenger" onClick={()=>setButtonPopup(true)}></i>
             <span className="home">Messenger</span>
           </div>
+          <Popup trigger={buttonPopup} setTrigger={()=>setButtonPopup}>
+            <h5 className="ml">messenger list</h5>
+          </Popup>
           <div class="container8">
             <i class="fa-solid fa-bell"></i>
             <span className="home">Notifications</span>
