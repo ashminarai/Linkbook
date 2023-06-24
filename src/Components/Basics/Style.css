@@ -576,6 +576,9 @@ li {
 .timeline3 {
   margin-left: 20px;
 }
+.disappear{
+  /* color:white; */
+}
 .sidebar-container-content {
   /* background-color: rgb(236, 236, 236); */
   /* width: 1440px; */
@@ -939,7 +942,7 @@ li {
   border-radius: 40px;
 }
 .middlesquad{
-  margin-left:360px;
+  margin-left:350px;
   margin-top:80px;
 }
 .sidebarsquad{
@@ -1077,9 +1080,9 @@ li {
   height:350px;
   margin-left:30px;
 }
-/* .rightsquad{
+.rightsquad{
   position: fixed;
-}  */
+} 
 .reels-container-content{
   margin-top:20px;
   height:600px;
@@ -1126,6 +1129,9 @@ li {
   margin-left:5px;
 }
 .chatboxlist{
-  background-color:red;
-  top:100%;
+  background-color:white;
+  height:500px;
+  width:400px;
+  width:360px;
+  z-index: 1;
 }

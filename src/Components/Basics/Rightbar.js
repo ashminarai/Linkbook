@@ -1,10 +1,14 @@
 import React from "react";
 import "./Style.css";
 
+
+
 const Rightbar = () => {
   return (
     <>
+     
       {/* <section className="rightsquad">
+      
         <h3 className="demosponsered">Sponsored</h3>
         <img
           className="rightsponser"
