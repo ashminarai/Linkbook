@@ -52,12 +52,12 @@ const Topload = () => {
             <i class="fa-solid fa-bars"></i>
             <span className="home">Menu</span>
           </div>
-          <div class="container7">
-            <i class="fa-brands fa-facebook-messenger" onClick={()=>setButtonPopup(true)}>{""}</i>
+          <div class="container7" onClick={()=>setButtonPopup(true)}>
+            <i class="fa-brands fa-facebook-messenger" >{""}</i>
             <span className="home">Messenger</span>
           </div>
           <Popup trigger={buttonPopup} setTrigger={()=>setButtonPopup} >
-            <h5>messenger list</h5>
+            <h5 className="chatboxlist">messenger list</h5>
           </Popup>
           <div class="container8">
             <i class="fa-solid fa-bell"></i>

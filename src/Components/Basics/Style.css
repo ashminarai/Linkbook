@@ -1079,7 +1079,6 @@ li {
 }
 .rightsquad{
   position: fixed;
-  /* position:absolute; */
 }
 .reels-container-content{
   margin-top:20px;
@@ -1126,8 +1125,9 @@ li {
   border-radius:10px;
   margin-left:5px;
 }
-/* .tiktok2{
-  border-radius:20px;
-  margin-left:5px;
-} */
+.chatboxlist{
+  background-color:red;
+  margin-top:100%;
+  /* position: absolute; */
+}
 
