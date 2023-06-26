@@ -2,12 +2,12 @@ import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
 import Timeline from "./Timeline";
-import { useState } from "react";
+// import { useState } from "react";
 
 import Popup from "./Popup";
 
 const Topload = () => {
-  const [buttonPopup, setButtonPopup] = useState(false);
+  // const [buttonPopup, setButtonPopup] = useState(false);
   return (
     <>
       <section className="toploadsquad">
@@ -54,14 +54,15 @@ const Topload = () => {
             <div class="container6">
               <i class="fa-solid fa-bars"></i>
               <span className="home">Menu</span>
-              <Popup trigger={buttonPopup} setTrigger={() => setButtonPopup}>
+              {/* <Popup trigger={buttonPopup} setTrigger={() => setButtonPopup}>
                 <h5 className="chatboxlist">messenger list</h5>
-              </Popup>
+              </Popup> */}
             </div>
             
 
 
-            <div class="container7" onClick={() => setButtonPopup(true)}>
+            {/* <div class="container7" onClick={() => setButtonPopup(true)}> */}
+            <div class="container7">
               <i class="fa-brands fa-facebook-messenger">{""}</i>
               <span className="home">Messenger</span>
               
@@ -82,7 +83,7 @@ const Topload = () => {
         <Timeline />
       </div>
 
-      {/* <h5>sidebar</h5> */}
+      <h5>sidebar</h5>
     </>
   );
 };
