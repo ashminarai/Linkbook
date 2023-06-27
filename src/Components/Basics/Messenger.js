@@ -43,7 +43,7 @@ const Messenger = () => {
               <span class="home">Gaming</span>
             </div>
 
-            <div class="container6">
+            <div class="container12">
               <i class="fa-solid fa-bars"></i>
               <span className="home">Menu</span>
               {/* <Popup trigger={buttonPopup} setTrigger={() => setButtonPopup}>
