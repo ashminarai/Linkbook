@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Timeline from "./Timeline";
 // import { useState } from "react";
 
-import Popup from "./Popup";
+// import Popup from "./Popup";
 
 const Topload = () => {
   // const [buttonPopup, setButtonPopup] = useState(false);
@@ -57,12 +57,16 @@ const Topload = () => {
             </div>
 
             {/* <div class="container7" onClick={() => setButtonPopup(true)}> */}
-            <Link to="/messengerchatbox">
-              <div class="container7">
+
+
+           <Link to="/messengerchatbox">
+           <div class="container7">
                 <i class="fa-brands fa-facebook-messenger">{""}</i>
                 <span className="home">Messenger</span>
               </div>
-            </Link>
+           </Link>
+              
+          
 
             <div class="container8">
               <i class="fa-solid fa-bell"></i>
@@ -79,7 +83,6 @@ const Topload = () => {
         <Timeline />
       </div>
 
-      <h5>sidebar</h5>
     </>
   );
 };
