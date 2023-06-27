@@ -7,6 +7,7 @@ import Register from "./Components/Basics/Register";
 import Topload from "./Components/Basics/Topload";
 import Timeline from "./Components/Basics/Timeline";
 import '@fortawesome/fontawesome-free/css/all.css';
+import Messenger from "./Components/Basics/Messenger";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/register" element={<Register />}></Route>
           <Route path="/mainfeed" element={<Topload />}></Route>
           <Route path="/mainfeed" element={<Timeline />}></Route>
+          <Route path="/messengerchatbox" element={<Messenger />}></Route>
         </Routes>
         <Login />
         <Photo />

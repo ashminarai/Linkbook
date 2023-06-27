@@ -48,9 +48,6 @@ const Topload = () => {
               <span class="home">Gaming</span>
             </div>
 
-
-
-
             <div class="container6">
               <i class="fa-solid fa-bars"></i>
               <span className="home">Menu</span>
@@ -58,15 +55,14 @@ const Topload = () => {
                 <h5 className="chatboxlist">messenger list</h5>
               </Popup> */}
             </div>
-            
-
 
             {/* <div class="container7" onClick={() => setButtonPopup(true)}> */}
-            <div class="container7">
-              <i class="fa-brands fa-facebook-messenger">{""}</i>
-              <span className="home">Messenger</span>
-              
-            </div>
+            <Link to="/messengerchatbox">
+              <div class="container7">
+                <i class="fa-brands fa-facebook-messenger">{""}</i>
+                <span className="home">Messenger</span>
+              </div>
+            </Link>
 
             <div class="container8">
               <i class="fa-solid fa-bell"></i>
