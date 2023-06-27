@@ -55,10 +55,10 @@ const Messenger = () => {
 
 
            
-           <div class="container7">
+           {/* <div class="container7">
                 <i class="fa-brands fa-facebook-messenger">{""}</i>
                 <span className="home">Messenger</span>
-              </div>
+              </div> */}
           
               
           
