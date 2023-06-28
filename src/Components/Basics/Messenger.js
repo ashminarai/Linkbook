@@ -74,7 +74,7 @@ const Messenger = () => {
           </div>
         </div>
 
-        demo
+    
       </section>
 
      
