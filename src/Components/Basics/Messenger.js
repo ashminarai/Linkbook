@@ -89,6 +89,7 @@ const Messenger = () => {
               </div>
             </div>
             <div className="chatSearchbar">
+              <i className="fas fa-search chatsearch"></i>
               <input type="text" placeholder="Search Messenger" className="chatinput"></input>
             </div>
           </div>

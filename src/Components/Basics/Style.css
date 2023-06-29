@@ -1179,8 +1179,9 @@ li {
 }
 .chatsection-container{
   max-width:400px;
-  background-color:red;
+  background-color:white;
   height:1000px;
+  border-right: 0.1px solid rgb(169, 168, 168);
 }
 .chatsection{
   margin-left:30px
@@ -1204,13 +1205,23 @@ li {
   margin-left:20px;
 }
 .chatSearchbar{
-  background-color:blue;
+  background-color:rgb(220, 220, 220);
   height:40px;
   margin-left:30px;
   width:350px;
+  border-radius:20px;
+}
+.chatsearch{
+  margin-left:10px;
 }
 .chatinput{
   margin: left 30px;
   margin-top:10px;
-  margin-left:30px;
+  margin-left:10px;
+  width:280px;
+  border:none;
+  outline:none;
+  height:20px;
+  background-color:rgb(220, 220, 220);
+
 }
