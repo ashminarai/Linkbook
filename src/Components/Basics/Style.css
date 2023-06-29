@@ -1159,7 +1159,7 @@ li {
 }
 /* messenger section starts */
 
-.chatsection-container{
+.chatcontainer{
   display:flex;
 }
 .lder{
@@ -1182,6 +1182,9 @@ li {
   background-color:red;
   height:1000px;
 }
+.chatsection{
+  margin-left:30px
+}
 .chatsection1{
   height:40px;
   background-color: rgb(220, 220, 220);
@@ -1189,7 +1192,7 @@ li {
   width: 40px;
   margin-top: 15px;
   border-radius: 50%;
-  margin-left:200px;  
+  margin-left:190px;  
 }
 .chatsection2{
   height:40px;
@@ -1199,5 +1202,15 @@ li {
   margin-top: 15px;
   border-radius: 50%;
   margin-left:20px;
-  
+}
+.chatSearchbar{
+  background-color:blue;
+  height:40px;
+  margin-left:30px;
+  width:350px;
+}
+.chatinput{
+  margin: left 30px;
+  margin-top:10px;
+  margin-left:30px;
 }

@@ -73,14 +73,23 @@ const Messenger = () => {
 
         <div className="chatsection-container-content">
           <div className="chatsection-container">
-            <div className="chatsection">
-              <h1>Chats</h1>
+            <div className="chatcontainer">
+              <div className="chatsection">
+                <h1>Chats</h1>
+              </div>
+              <div className="chatsection1">
+                <img src="../Images/loader.png" className="lder" alt=""></img>
+              </div>
+              <div className="chatsection2">
+                <img
+                  src="../Images/camcroder.png"
+                  className="camc"
+                  alt=""
+                ></img>
+              </div>
             </div>
-            <div className='chatsection1'>
-              <img src="../Images/loader.png" className="lder" alt=""></img>
-            </div>
-            <div className='chatsection2'>
-              <img src="../Images/camcroder.png"className="camc" alt=""></img>
+            <div className="chatSearchbar">
+              <input type="text" placeholder="Search Messenger" className="chatinput"></input>
             </div>
           </div>
         </div>
