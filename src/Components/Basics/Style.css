@@ -1157,3 +1157,14 @@ li {
   text-align: center;
   padding-top: 8px;
 }
+/* messenger section starts */
+
+.chatsection-container{
+  display:flex;
+}
+.lder{
+  height:20px;
+}
+.camc{
+  height:30px;
+}

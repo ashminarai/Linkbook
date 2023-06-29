@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 import "./Style.css";
 import { Link } from "react-router-dom";
 
 const Messenger = () => {
   return (
-   <>
-   <section className="toploadsquad">
+    <>
+      <section className="toploadsquad">
         <div className="topbarContanier">
           <div className="topbarcontent">
             <div className="topbar-container">
@@ -53,15 +53,10 @@ const Messenger = () => {
 
             {/* <div class="container7" onClick={() => setButtonPopup(true)}> */}
 
-
-           
-           {/* <div class="container7">
+            {/* <div class="container7">
                 <i class="fa-brands fa-facebook-messenger">{""}</i>
                 <span className="home">Messenger</span>
               </div> */}
-          
-              
-          
 
             <div class="container8">
               <i class="fa-solid fa-bell"></i>
@@ -76,21 +71,22 @@ const Messenger = () => {
 
         {/* chatsection starts */}
 
-        <div className='chatsection-container-content'>
-          <div className='chatsection-container'>
-            <div className='chatsection'>
+        <div className="chatsection-container-content">
+          <div className="chatsection-container">
+            <div className="chatsection">
               <h1>Chats</h1>
             </div>
+            <div className='chatsection1'>
+              <img src="../Images/loader.png" className="lder" alt=""></img>
+            </div>
+            <div className='chatsection2'>
+              <img src="../Images/camcroder.png"className="camc" alt=""></img>
+            </div>
           </div>
-
         </div>
-
-    
       </section>
-
-     
-   </>
-  )
-}
+    </>
+  );
+};
 
 export default Messenger;
