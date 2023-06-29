@@ -74,6 +74,17 @@ const Messenger = () => {
           </div>
         </div>
 
+        {/* chatsection starts */}
+
+        <div className='chatsection-container-content'>
+          <div className='chatsection-container'>
+            <div className='chatsection'>
+              <h1>Chats</h1>
+            </div>
+          </div>
+
+        </div>
+
     
       </section>
 
