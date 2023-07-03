@@ -90,18 +90,28 @@ const Messenger = () => {
             </div>
             <div className="chatSearchbar">
               <i className="fas fa-search chatsearch"></i>
-              <input type="text" placeholder="Search Messenger" className="chatinput"></input>
+              <input
+                type="text"
+                placeholder="Search Messenger"
+                className="chatinput"
+              ></input>
             </div>
-           {/* messenger for people */}
+            {/* messenger for people */}
 
-           <div className="userprofile-container-content">
-            <div className="userprofile-container">
-              <div className="userprofile">
-                <img src="../Images/anita.jpeg" className="anita" alt=""></img>
+            <div className="userprofile-container-content">
+              <div className="userprofile-container">
+                <div className="userprofile">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="userprofile">
+                  <h5 className="usernames">Anita Poudel</h5>
+                </div>
               </div>
-              
             </div>
-           </div>
           </div>
         </div>
       </section>
