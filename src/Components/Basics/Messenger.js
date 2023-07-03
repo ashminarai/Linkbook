@@ -99,12 +99,7 @@ const Messenger = () => {
               <div className="userprofile">
                 <img src="../Images/anita.jpeg" className="anita" alt=""></img>
               </div>
-              <div className="userprofile1">
-                <span className="usernamechat">Anita Poudel</span>
-                <div className="inner-chatbox">
-                  <h5>hello</h5>
-                </div>
-              </div>
+              
             </div>
            </div>
           </div>
