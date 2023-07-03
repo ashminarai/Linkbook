@@ -109,11 +109,11 @@ const Messenger = () => {
                 </div>
                 <div className="username-container">
                   <div className="username-content">
-                    <h5>hello</h5>
+                    <label>Hi</label>
+                    <br />
+                    <label>Hello</label>
                   </div>
-                  <p>You: Hello Anita</p>
                 </div>
-                
               </div>
             </div>
           </div>
