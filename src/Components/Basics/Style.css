@@ -1256,3 +1256,16 @@ li {
 .username-container{
   margin-left:10px;
 }
+.userprofilenameandcaste{
+  font-weight: 600;
+}
+.username-content{
+  margin-top:10px;
+}
+.chatwithpeople{
+  font-size:15px;
+  font-weight:300;
+}
+.chattiming{
+  font-size:13px;
+}

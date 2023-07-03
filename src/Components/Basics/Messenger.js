@@ -109,9 +109,10 @@ const Messenger = () => {
                 </div>
                 <div className="username-container">
                   <div className="username-content">
-                    <label>Hi</label>
+                    <label className="userprofilenameandcaste">Anita Poudel</label>
                     <br />
-                    <label>Hello</label>
+                    <label className="chatwithpeople">The video chat ended.</label>
+                    <label className="chattiming">  .3h</label>
                   </div>
                 </div>
               </div>
