@@ -1255,6 +1255,7 @@ li {
 }
 .username-container{
   margin-left:10px;
+  line-height: 25px;
 }
 .userprofilenameandcaste{
   font-weight: 600;

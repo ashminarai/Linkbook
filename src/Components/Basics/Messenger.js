@@ -109,13 +109,142 @@ const Messenger = () => {
                 </div>
                 <div className="username-container">
                   <div className="username-content">
-                    <label className="userprofilenameandcaste">Anita Poudel</label>
+                    <label className="userprofilenameandcaste">
+                      Anita Poudel
+                    </label>
                     <br />
-                    <label className="chatwithpeople">The video chat ended.</label>
-                    <label className="chattiming">  .3h</label>
+                    <label className="chatwithpeople">
+                      The video chat ended.
+                    </label>
+                    <label className="chattiming"> .3h</label>
                   </div>
                 </div>
               </div>
+
+              {/* starts */}
+              <div className="userprofile-container">
+                <div className="userimage">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="username-container">
+                  <div className="username-content">
+                    <label className="userprofilenameandcaste">
+                      Jhyaple boii
+                    </label>
+                    <br />
+                    <label className="chatwithpeople">
+                    Jhyaple boii: Hanuman
+                    </label>
+                    <label className="chattiming"> .now</label>
+                  </div>
+                </div>
+              </div>
+
+              {/* ends */}
+
+              {/* starts */}
+              <div className="userprofile-container">
+                <div className="userimage">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="username-container">
+                  <div className="username-content">
+                    <label className="userprofilenameandcaste">
+                      Sachin Dahal
+                    </label>
+                    <br />
+                    <label className="chatwithpeople">
+                      Sachin  Dahal: Sirji
+                    </label>
+                    <label className="chattiming"> .5min</label>
+                  </div>
+                </div>
+              </div>
+
+              {/* ends */}
+
+              {/* starts */}
+              <div className="userprofile-container">
+                <div className="userimage">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="username-container">
+                  <div className="username-content">
+                    <label className="userprofilenameandcaste">
+                      Anita Poudel
+                    </label>
+                    <br />
+                    <label className="chatwithpeople">
+                      The video chat ended.
+                    </label>
+                    <label className="chattiming"> .3h</label>
+                  </div>
+                </div>
+              </div>
+
+              {/* ends */}
+
+              {/* starts */}
+              <div className="userprofile-container">
+                <div className="userimage">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="username-container">
+                  <div className="username-content">
+                    <label className="userprofilenameandcaste">
+                      Anita Poudel
+                    </label>
+                    <br />
+                    <label className="chatwithpeople">
+                      The video chat ended.
+                    </label>
+                    <label className="chattiming"> .3h</label>
+                  </div>
+                </div>
+              </div>
+
+              {/* ends */}
+
+              {/* starts */}
+              <div className="userprofile-container">
+                <div className="userimage">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="username-container">
+                  <div className="username-content">
+                    <label className="userprofilenameandcaste">
+                      Anita Poudel
+                    </label>
+                    <br />
+                    <label className="chatwithpeople">
+                      The video chat ended.
+                    </label>
+                    <label className="chattiming"> .3h</label>
+                  </div>
+                </div>
+              </div>
+
+              {/* ends */}
             </div>
           </div>
         </div>
