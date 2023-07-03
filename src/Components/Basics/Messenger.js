@@ -100,16 +100,20 @@ const Messenger = () => {
 
             <div className="userprofile-container-content">
               <div className="userprofile-container">
-                <div className="userprofile">
+                <div className="userimage">
                   <img
                     src="../Images/anita.jpeg"
                     className="anita"
                     alt=""
                   ></img>
                 </div>
-                <div className="userprofile">
-                  <h5 className="usernames">Anita Poudel</h5>
+                <div className="username-container">
+                  <div className="username-content">
+                    <h5>hello</h5>
+                  </div>
+                  <p>You: Hello Anita</p>
                 </div>
+                
               </div>
             </div>
           </div>
