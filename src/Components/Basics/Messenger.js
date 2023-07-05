@@ -322,6 +322,31 @@ const Messenger = () => {
               </div>
 
               {/* ends */}
+
+               {/* starts */}
+               <div className="userprofile-container">
+                <div className="userimage">
+                  <img
+                    src="../Images/anita.jpeg"
+                    className="anita"
+                    alt=""
+                  ></img>
+                </div>
+                <div className="username-container">
+                  <div className="username-content">
+                    <label className="userprofilenameandcaste">
+                      Anita Poudel
+                    </label>
+                    <br />
+                    <label className="chatwithpeople">
+                      The video chat ended.
+                    </label>
+                    <label className="chattiming"> .3h</label>
+                  </div>
+                </div>
+              </div>
+
+              {/* ends */}
             </div>
           </div>
         </div>
