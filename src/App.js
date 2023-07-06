@@ -8,6 +8,7 @@ import Topload from "./Components/Basics/Topload";
 import Timeline from "./Components/Basics/Timeline";
 import '@fortawesome/fontawesome-free/css/all.css';
 import Messenger from "./Components/Basics/Messenger";
+import Profile from "./Components/Basics/Profile";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/mainfeed" element={<Topload />}></Route>
           <Route path="/mainfeed" element={<Timeline />}></Route>
           <Route path="/messengerchatbox" element={<Messenger />}></Route>
+          <Route path="/userprofile" element={<Profile />}></Route>
         </Routes>
         <Login />
         <Photo />

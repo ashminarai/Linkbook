@@ -72,10 +72,12 @@ const Topload = () => {
               <i class="fa-solid fa-bell"></i>
               <span className="home">Notifications</span>
             </div>
+            <Link>
             <div class="container9">
               <img src="../Images/User.jpeg" className="user" alt=""></img>
               <span className="home">Account</span>
             </div>
+            </Link>
           </div>
         </div>
       </section>
