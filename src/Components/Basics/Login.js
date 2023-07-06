@@ -4,7 +4,6 @@ import "./Style.css";
 const Login = () => {
   return (
     <>
-    
     </>
   )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Middlebar from './Middlebar'
-// import Rightbar from './Rightbar'
+import Rightbar from './Rightbar'
 
 const Timeline = () => {
   return (
@@ -17,7 +17,7 @@ const Timeline = () => {
             </div>
             <div className='timeline3'>
                 {/* <h3>Hi</h3> */}
-                {/* <Rightbar/> */}
+                <Rightbar/>
             </div>
 
         </div>
