@@ -78,11 +78,6 @@ const Profile = () => {
             
           </div>
         </div>
-        k vaako yo
-
-
-     
-     
       </section>
 
 
