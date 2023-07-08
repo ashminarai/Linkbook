@@ -82,15 +82,22 @@ const Profile = () => {
         <div className="profileaccount-container-content">
           <div className="profileaccount-container">
             <div className="profile-content">
-              <img src="../Images/anita.jpeg" className="profilepictures" alt=""></img>
+              <img
+                src="../Images/anita.jpeg"
+                className="profilepictures"
+                alt=""
+              ></img>
             </div>
             <div className="profile-content1">
               <h1>Anita Paudel</h1>
             </div>
             <div className="profile-content2">
-              <button>Add friend</button>
+              <i class="fa-solid fa-user-plus profileadds"></i>
+              <h5>Add friend</h5>
+              {/* <button>Add friend</button> */}
             </div>
             <div className="profile-content3">
+              <i class="fa-brands fa-facebook-messenger profilechat"></i>
               <h5>Message</h5>
             </div>
           </div>
