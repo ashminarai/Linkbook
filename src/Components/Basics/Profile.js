@@ -78,6 +78,19 @@ const Profile = () => {
             
           </div>
         </div>
+
+
+        {/* profile actual content starts after nav bar */}
+
+        <div className='accountprofile-container-content'>
+          <div className='accountprofile-container'>
+            <div className='account-profile'>
+              <img src="../Images/cover.JPG" className="coverpicture" alt=""></img>
+            </div>
+
+          </div>
+
+        </div>
       </section>
 
 
