@@ -112,19 +112,19 @@ const Profile = () => {
             <div className="profileaccountlist-content">
               <h2>Posts</h2>
             </div>
-            <div className="profileaccountlist-content">
+            <div className="profileaccountlist-content1">
               <h2>About</h2>
             </div>
-            <div className="profileaccountlist-content">
+            <div className="profileaccountlist-content2">
               <h2>Friends</h2>
             </div>
-            <div className="profileaccountlist-content">
+            <div className="profileaccountlist-content3">
               <h2>Photos</h2>
             </div>
-            <div className="profileaccountlist-content">
+            <div className="profileaccountlist-content4">
               <h2>Videos</h2>
             </div>
-            <div className="profileaccountlist-content">
+            <div className="profileaccountlist-content5">
               <h2>Check-ins</h2>
             </div>
           </div>

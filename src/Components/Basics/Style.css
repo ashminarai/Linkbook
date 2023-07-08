@@ -1378,4 +1378,52 @@ li {
 }
 .profileaccountlist-container{
   display:flex;
+  margin-top:15px;
+}
+.profileaccountlist-content h2{
+  font-size:16px;
+  color:rgb(125, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left:150px;
+  cursor: pointer;
+}
+.profileaccountlist-content1 h2{
+  font-size:16px;
+  color:rgb(125, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left:20px;
+  cursor: pointer;
+}
+.profileaccountlist-content2 h2{
+  font-size:16px;
+  color:rgb(125, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left:20px;
+  cursor: pointer;
+}
+.profileaccountlist-content3 h2{
+  font-size:16px;
+  color:rgb(125, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left:20px;
+}
+.profileaccountlist-content4 h2{
+  font-size:16px;
+  color:rgb(125, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left:20px;
+  cursor: pointer;
+}
+.profileaccountlist-content5 h2{
+  font-size:16px;
+  color:rgb(125, 125, 125);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  margin-left:20px;
+  cursor: pointer;
 }
