@@ -1370,3 +1370,12 @@ li {
   margin-top:13px;
   margin-left:17px;
 }
+.accountshr{
+  width:1150px;
+  margin-left:150px;
+  margin-top:30px;
+  opacity: 0.4;
+}
+.profileaccountlist-container{
+  display:flex;
+}

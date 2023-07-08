@@ -101,9 +101,32 @@ const Profile = () => {
               <h5>Message</h5>
             </div>
             <div className="profile-content4">
-            <i class="fa-solid fa-chevron-down"></i>
+              <i class="fa-solid fa-chevron-down"></i>
             </div>
-            
+          </div>
+        </div>
+        <hr className="accountshr" />
+
+        <div className="profileaccountlists-container-content">
+          <div className="profileaccountlist-container">
+            <div className="profileaccountlist-content">
+              <h2>Posts</h2>
+            </div>
+            <div className="profileaccountlist-content">
+              <h2>About</h2>
+            </div>
+            <div className="profileaccountlist-content">
+              <h2>Friends</h2>
+            </div>
+            <div className="profileaccountlist-content">
+              <h2>Photos</h2>
+            </div>
+            <div className="profileaccountlist-content">
+              <h2>Videos</h2>
+            </div>
+            <div className="profileaccountlist-content">
+              <h2>Check-ins</h2>
+            </div>
           </div>
         </div>
       </section>
