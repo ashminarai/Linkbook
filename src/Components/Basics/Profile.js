@@ -84,6 +84,15 @@ const Profile = () => {
             <div className="profile-content">
               <img src="../Images/anita.jpeg" className="profilepictures" alt=""></img>
             </div>
+            <div className="profile-content1">
+              <h1>Anita Paudel</h1>
+            </div>
+            <div className="profile-content2">
+              <button>Add friend</button>
+            </div>
+            <div className="profile-content3">
+              <h5>Message</h5>
+            </div>
           </div>
         </div>
       </section>

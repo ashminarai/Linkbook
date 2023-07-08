@@ -1274,21 +1274,26 @@ li {
 
 /* profileaccount css */
 
+.account-profile{
+  max-width:700px;
+  margin-left:100px;
+}
 .coverpicture{
-  height:400px;
-  width:1500px;
+  height:520px;
+  width:1200px;
   position:absolute;
 }
-.profileaccount-container-content{
+/* .profileaccount-container-content{
   position: relative;
-}
+} */
 .profile-content{
-  margin-top:300px;
-  margin-left:50px;
+  margin-top:450px;
+  margin-left:150px;
   background-color:white;
   height:180px;
   width:180px;
   border-radius: 50%;
+  position: relative;
 }
 .profilepictures{
   height:170px;
@@ -1296,4 +1301,13 @@ li {
   border-radius:50%;
   margin-top:5px;
   margin-left:5px;
+}
+.profileaccount-container{
+  display:flex;
+}
+.profile-content1{
+  margin-top:540px;
+  margin-left:30px;
+  position: relative;
+
 }
