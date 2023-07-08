@@ -1270,3 +1270,30 @@ li {
 .chattiming{
   font-size:13px;
 }
+
+
+/* profileaccount css */
+
+.coverpicture{
+  height:400px;
+  width:1500px;
+  position:absolute;
+}
+.profileaccount-container-content{
+  position: relative;
+}
+.profile-content{
+  margin-top:300px;
+  margin-left:50px;
+  background-color:white;
+  height:180px;
+  width:180px;
+  border-radius: 50%;
+}
+.profilepictures{
+  height:170px;
+  width:170px;
+  border-radius:50%;
+  margin-top:5px;
+  margin-left:5px;
+}

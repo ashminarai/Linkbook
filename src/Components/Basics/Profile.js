@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
-
-
 
 const Profile = () => {
   return (
-   <>
-   <section className="toploadsquad">
+    <>
+      <section className="toploadsquad">
         <div className="topbarContanier">
           <div className="topbarcontent">
             <div className="topbar-container">
@@ -54,15 +52,12 @@ const Profile = () => {
 
             {/* <div class="container7" onClick={() => setButtonPopup(true)}> */}
 
-
-           <Link to="/messengerchatbox">
-           <div class="container7">
+            <Link to="/messengerchatbox">
+              <div class="container7">
                 <i class="fa-brands fa-facebook-messenger">{""}</i>
                 <span className="home">Messenger</span>
               </div>
-           </Link>
-              
-          
+            </Link>
 
             <div class="container8">
               <i class="fa-solid fa-bell"></i>
@@ -70,32 +65,30 @@ const Profile = () => {
             </div>
 
             <Link to="/userprofile">
-            <div class="container9">
-              <img src="../Images/User.jpeg" className="user" alt=""></img>
-              <span className="home">Account</span>
-            </div>
+              <div class="container9">
+                <img src="../Images/User.jpeg" className="user" alt=""></img>
+                <span className="home">Account</span>
+              </div>
             </Link>
-            
           </div>
         </div>
-
 
         {/* profile actual content starts after nav bar */}
 
-        <div className='accountprofile-container-content'>
-          <div className='accountprofile-container'>
-            <div className='account-profile'>
-              <img src="../Images/cover.JPG" className="coverpicture" alt=""></img>
+        <div className="account-profile">
+          <img src="../Images/cover.JPG" className="coverpicture" alt=""></img>
+        </div>
+
+        <div className="profileaccount-container-content">
+          <div className="profileaccount-container">
+            <div className="profile-content">
+              <img src="../Images/anita.jpeg" className="profilepictures" alt=""></img>
             </div>
-
           </div>
-
         </div>
       </section>
+    </>
+  );
+};
 
-
-   </>
-  )
-}
-
-export default Profile
+export default Profile;
