@@ -21,7 +21,6 @@ const Profile = () => {
               ></input>
             </div>
             <div class="container">
-              {/* <img className="fa-sharp fa-solid fa-house hover-element" src="../Images/house.png"  alt=""></img> */}
               <i class="fa-sharp fa-solid fa-house hover-element"></i>
               <span class="home">Home</span>
             </div>
@@ -126,6 +125,9 @@ const Profile = () => {
             </div>
             <div className="profileaccountlist-content5">
               <h2>Check-ins</h2>
+            </div>
+            <div className="profileaccountlist-content6">
+              <img src="../Images/loader.png" className="aload" alt=""></img>
             </div>
           </div>
         </div>

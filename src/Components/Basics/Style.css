@@ -1427,3 +1427,16 @@ li {
   margin-left:20px;
   cursor: pointer;
 }
+.profileaccountlist-content6{
+  width:50px;
+  /* margin-top:10px; */
+  height:43px;
+  background-color:rgb(211, 210, 210);
+  border-radius: 10px;
+  margin-left:640px;
+}
+.aload{
+  height:20px;
+  margin-left:10px;
+  margin-top:10px;
+}
