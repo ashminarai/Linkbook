@@ -100,6 +100,10 @@ const Profile = () => {
               <i class="fa-brands fa-facebook-messenger profilechat"></i>
               <h5>Message</h5>
             </div>
+            <div className="profile-content4">
+            <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            
           </div>
         </div>
       </section>
